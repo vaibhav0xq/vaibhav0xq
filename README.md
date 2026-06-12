@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/flame-header.svg" alt="Vaibhav Gangani animated profile header" width="100%" />
+  <img src="./assets/profile-hero.gif" alt="Vaibhav Gangani animated profile header" width="100%" />
 </p>
 
 <p align="center">
@@ -12,12 +12,12 @@
   <a href="https://arcidentity.in">Arc Identity</a>
 </p>
 
-<img src="./assets/flame-divider.svg" width="100%" alt="Animated flame divider" />
+<img src="./assets/flame-divider.gif" width="100%" alt="Animated flame divider" />
 
 ## Now Loading
 
 <p align="center">
-  <img src="./assets/quest-board.svg" alt="Animated developer quest board" width="100%" />
+  <img src="./assets/quest-board.gif" alt="Animated developer quest board" width="100%" />
 </p>
 
 I build across product ideas, protocols, interfaces and developer workflows.
@@ -32,7 +32,7 @@ I like projects that start as experiments and become useful: clean flows, readab
 - Testing, software quality and documentation
 - New chains, protocols and app ideas
 
-<img src="./assets/flame-divider.svg" width="100%" alt="Animated flame divider" />
+<img src="./assets/flame-divider.gif" width="100%" alt="Animated flame divider" />
 
 ## Selected Builds
 
@@ -55,7 +55,7 @@ I like projects that start as experiments and become useful: clean flows, readab
   <sub>More builds are coming. This profile is meant to grow with the work, not lock into one niche.</sub>
 </p>
 
-<img src="./assets/flame-divider.svg" width="100%" alt="Animated flame divider" />
+<img src="./assets/flame-divider.gif" width="100%" alt="Animated flame divider" />
 
 ## Inventory
 
@@ -72,10 +72,10 @@ I like projects that start as experiments and become useful: clean flows, readab
 </p>
 
 <p align="center">
-  <img src="./assets/build-loop.svg" alt="Animated build loop" width="100%" />
+  <img src="./assets/build-loop.gif" alt="Animated build loop" width="100%" />
 </p>
 
-<img src="./assets/flame-divider.svg" width="100%" alt="Animated flame divider" />
+<img src="./assets/flame-divider.gif" width="100%" alt="Animated flame divider" />
 
 ## Activity
 
@@ -103,12 +103,12 @@ I like projects that start as experiments and become useful: clean flows, readab
 
 </details>
 
-<img src="./assets/flame-divider.svg" width="100%" alt="Animated flame divider" />
+<img src="./assets/flame-divider.gif" width="100%" alt="Animated flame divider" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2600&pause=900&color=FFB020&center=true&vCenter=true&width=800&lines=map+the+flow;build+the+slice;test+the+path;ship+the+lesson;keep+improving" alt="Animated footer typing" />
 </p>
 
 <p align="center">
-  <img src="./assets/flame-footer.svg" alt="Animated flame footer" width="100%" />
+  <img src="./assets/flame-footer.gif" alt="Animated flame footer" width="100%" />
 </p>
