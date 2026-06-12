@@ -1,8 +1,8 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Vaibhav Gangani animated flame header</title>
   <desc id="desc">Animated GitHub profile header with flame and game HUD style.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
       <stop stop-color="#05070A"/>
       <stop offset="0.5" stop-color="#0B0F14"/>
       <stop offset="1" stop-color="#160B05"/>
@@ -27,6 +27,7 @@
       .dash { stroke-dasharray: 16 18; animation: dash 12s linear infinite; }
       .scan { animation: scan 5s linear infinite; }
       .blink { animation: blink 1s step-end infinite; }
+      .orb { animation: orb 7s ease-in-out infinite; }
       @keyframes flame {
         from { transform: translateY(0) scaleY(0.92) skewX(-1deg); opacity: 0.72; }
         to { transform: translateY(-8px) scaleY(1.08) skewX(2deg); opacity: 1; }
@@ -38,25 +39,45 @@
         100% { transform: translateX(1200px); opacity: 0; }
       }
       @keyframes blink { 50% { opacity: 0; } }
+      @keyframes orb {
+        0%, 100% { transform: translateY(0) scale(1); opacity: 0.18; }
+        50% { transform: translateY(-12px) scale(1.05); opacity: 0.28; }
+      }
     </style>
   </defs>
-  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
-  <rect x="1.5" y="1.5" width="1197" height="357" rx="24.5" stroke="#2A3342" stroke-width="3"/>
-  <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M100 0V360M200 0V360M300 0V360M400 0V360M500 0V360M600 0V360M700 0V360M800 0V360M900 0V360M1000 0V360M1100 0V360" stroke="#1F2937" stroke-width="1"/>
-  <rect x="-220" y="0" width="170" height="360" fill="url(#fire)" opacity="0.24" class="scan"/>
+  <rect width="1200" height="420" rx="30" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="417" rx="28.5" stroke="#2A3342" stroke-width="3"/>
+  <path d="M0 84H1200M0 168H1200M0 252H1200M0 336H1200M100 0V420M200 0V420M300 0V420M400 0V420M500 0V420M600 0V420M700 0V420M800 0V420M900 0V420M1000 0V420M1100 0V420" stroke="#1F2937" stroke-width="1"/>
+  <rect x="-220" y="0" width="170" height="420" fill="url(#fire)" opacity="0.16" class="scan"/>
 
-  <path d="M90 292C190 260 244 308 342 268C446 226 514 260 606 214C720 158 820 192 930 116C1000 68 1060 78 1120 52" stroke="url(#fire)" stroke-width="3" stroke-linecap="round" class="dash" filter="url(#glow)"/>
+  <circle cx="955" cy="108" r="112" fill="#FF7A18" opacity="0.18" class="orb"/>
+  <circle cx="1045" cy="290" r="132" fill="#38BDF8" opacity="0.1" class="orb"/>
 
-  <g transform="translate(74 78)">
-    <text x="0" y="26" class="mono" font-size="17" fill="#FFB020">player: vaibhav0xq</text>
-    <text x="0" y="98" class="sans" font-size="66" font-weight="900" fill="#F8FAFC">Vaibhav Gangani</text>
-    <text x="4" y="142" class="sans" font-size="24" font-weight="700" fill="#CBD5E1">Web3 apps · Games · Tools · Experiments</text>
-    <text x="4" y="202" class="mono" font-size="19" fill="#FFB020">build the idea, test the path, ship the lesson<span class="blink">_</span></text>
+  <path d="M86 302C190 260 246 310 352 266C452 224 534 252 620 212C724 164 814 186 920 128C994 88 1066 88 1122 54" stroke="url(#fire)" stroke-width="3" stroke-linecap="round" class="dash" filter="url(#glow)"/>
+  <path d="M86 326C180 308 276 314 390 286C516 254 610 282 734 232C858 182 970 210 1110 174" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" class="dash" opacity="0.55"/>
+
+  <g transform="translate(74 84)">
+    <rect x="0" y="0" width="118" height="30" rx="15" fill="#111827" stroke="#2A3342"/>
+    <circle cx="19" cy="15" r="4" fill="#FFB020"/>
+    <text x="34" y="20" class="mono" font-size="12" fill="#CBD5E1">vaibhav0xq</text>
+    <text x="0" y="100" class="sans" font-size="70" font-weight="900" fill="#F8FAFC">Vaibhav Gangani</text>
+    <text x="4" y="145" class="sans" font-size="25" font-weight="700" fill="#CBD5E1">Web3 apps · Games · Tools · Experiments</text>
+    <text x="4" y="212" class="mono" font-size="19" fill="#FFB020">build the idea, test the path, ship the lesson<span class="blink">_</span></text>
+    <g transform="translate(4 252)">
+      <rect x="0" y="0" width="78" height="28" rx="14" fill="#111827" stroke="#374151"/>
+      <text x="39" y="19" text-anchor="middle" class="mono" font-size="12" fill="#E5E7EB">web3</text>
+      <rect x="92" y="0" width="82" height="28" rx="14" fill="#111827" stroke="#374151"/>
+      <text x="133" y="19" text-anchor="middle" class="mono" font-size="12" fill="#E5E7EB">games</text>
+      <rect x="188" y="0" width="76" height="28" rx="14" fill="#111827" stroke="#374151"/>
+      <text x="226" y="19" text-anchor="middle" class="mono" font-size="12" fill="#E5E7EB">tools</text>
+      <rect x="278" y="0" width="58" height="28" rx="14" fill="#111827" stroke="#374151"/>
+      <text x="307" y="19" text-anchor="middle" class="mono" font-size="12" fill="#E5E7EB">dx</text>
+    </g>
   </g>
 
-  <g transform="translate(860 82)" filter="url(#glow)">
-    <path class="flame" d="M92 176C38 150 62 86 94 44C96 78 126 92 130 128C152 108 160 82 152 54C210 104 224 166 178 204C150 228 110 216 92 176Z" fill="#FF7A18"/>
-    <path class="flame2" d="M124 188C90 166 102 124 126 92C130 120 150 134 150 158C166 146 172 128 168 108C202 146 198 194 160 214C144 222 134 210 124 188Z" fill="#FFB020"/>
-    <path class="flame" d="M134 196C116 180 122 152 140 132C144 150 158 160 156 178C168 170 172 158 172 146C194 178 178 218 146 222C142 214 140 204 134 196Z" fill="#F8FAFC" opacity="0.88"/>
+  <g transform="translate(846 90)" filter="url(#glow)">
+    <path class="flame" d="M118 220C52 188 78 112 118 54C122 96 158 112 164 154C190 132 198 98 188 64C260 128 276 202 220 248C184 278 138 266 118 220Z" fill="#FF7A18"/>
+    <path class="flame2" d="M154 234C110 204 124 154 154 116C160 150 184 166 184 196C204 180 212 156 206 132C250 178 246 238 198 262C178 272 166 258 154 234Z" fill="#FFB020"/>
+    <path class="flame" d="M164 244C142 224 150 188 174 164C178 186 196 198 194 220C210 210 216 194 216 180C244 220 224 272 184 276C178 264 174 254 164 244Z" fill="#F8FAFC" opacity="0.9"/>
   </g>
 </svg>

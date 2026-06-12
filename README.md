@@ -3,13 +3,13 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2200&pause=700&color=FFB020&center=true&vCenter=true&width=900&lines=building+software+that+feels+alive;web3+apps+%2F+games+%2F+tools+%2F+experiments;testing+ideas+through+real+projects;ship+small+%E2%86%92+learn+fast+%E2%86%92+improve" alt="Animated typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=850&color=FFB020&center=true&vCenter=true&width=900&lines=building+software+that+feels+alive;web3+apps+%2F+games+%2F+tools+%2F+experiments;testing+ideas+through+real+projects;ship+small+%E2%86%92+learn+fast+%E2%86%92+improve" alt="Animated typing intro" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/vaibhav0xq"><img src="https://img.shields.io/badge/GitHub-vaibhav0xq-0B0F14?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://x.com/vaibhav_0xq"><img src="https://img.shields.io/badge/X-vaibhav__0xq-0B0F14?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <img src="https://komarev.com/ghpvc/?username=vaibhav0xq&style=for-the-badge&color=ff7a18" alt="Profile views" />
+  <a href="https://github.com/vaibhav0xq">GitHub</a> ·
+  <a href="https://x.com/vaibhav_0xq">X</a> ·
+  <a href="https://arcidentity.in">Arc Identity</a>
 </p>
 
 <img src="./assets/flame-divider.svg" width="100%" alt="Animated flame divider" />
