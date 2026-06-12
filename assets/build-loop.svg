@@ -1,0 +1,65 @@
+<svg width="1200" height="190" viewBox="0 0 1200 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="track" x1="112" y1="96" x2="1088" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".34" stop-color="#FBBF24"/>
+      <stop offset=".68" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:800}
+      .mono{font-family:JetBrains Mono,Consolas,Menlo,monospace}
+      .track{stroke-dasharray:26 18;animation:track 5.8s linear infinite}
+      .runner{animation:runner 6s ease-in-out infinite;offset-path:path("M 112 96 C 260 48, 382 144, 520 96 S 792 48, 936 96 S 1048 144, 1088 96");}
+      .pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .chip{animation:chip 6s ease-in-out infinite}
+      @keyframes track{to{stroke-dashoffset:-176}}
+      @keyframes runner{0%{offset-distance:0%}100%{offset-distance:100%}}
+      @keyframes pulse{0%,100%{opacity:.64;transform:scale(.96)}50%{opacity:1;transform:scale(1.08)}}
+      @keyframes chip{0%,100%{opacity:.62}15%,28%{opacity:1}}
+    </style>
+  </defs>
+  <rect width="1200" height="190" rx="22" fill="#0D1117"/>
+  <rect x="24" y="20" width="1152" height="150" rx="18" fill="#111827" stroke="#30363D"/>
+  <text x="60" y="58" class="mono" font-size="16" font-weight="800" fill="#F59E0B">current loop</text>
+  <path class="track" d="M112 96C260 48 382 144 520 96S792 48 936 96S1048 144 1088 96" stroke="url(#track)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+  <circle class="runner" r="9" fill="#FBBF24" filter="url(#glow)"/>
+  <g class="label" font-size="18">
+    <g class="chip" style="animation-delay:0s">
+      <rect x="66" y="122" width="112" height="34" rx="17" fill="#0B1220" stroke="#334155"/>
+      <text x="101" y="145" fill="#E5E7EB">Idea</text>
+    </g>
+    <g class="chip" style="animation-delay:.9s">
+      <rect x="258" y="34" width="150" height="34" rx="17" fill="#0B1220" stroke="#334155"/>
+      <text x="292" y="57" fill="#E5E7EB">Prototype</text>
+    </g>
+    <g class="chip" style="animation-delay:1.8s">
+      <rect x="500" y="122" width="110" height="34" rx="17" fill="#0B1220" stroke="#334155"/>
+      <text x="536" y="145" fill="#E5E7EB">Test</text>
+    </g>
+    <g class="chip" style="animation-delay:2.7s">
+      <rect x="690" y="34" width="132" height="34" rx="17" fill="#0B1220" stroke="#334155"/>
+      <text x="724" y="57" fill="#E5E7EB">Document</text>
+    </g>
+    <g class="chip" style="animation-delay:3.6s">
+      <rect x="882" y="122" width="128" height="34" rx="17" fill="#0B1220" stroke="#334155"/>
+      <text x="922" y="145" fill="#E5E7EB">Improve</text>
+    </g>
+    <g class="chip" style="animation-delay:4.5s">
+      <rect x="1032" y="34" width="96" height="34" rx="17" fill="#0B1220" stroke="#334155"/>
+      <text x="1058" y="57" fill="#E5E7EB">Ship</text>
+    </g>
+  </g>
+  <g class="pulse" fill="#F59E0B">
+    <circle cx="112" cy="96" r="4"/>
+    <circle cx="520" cy="96" r="4"/>
+    <circle cx="936" cy="96" r="4"/>
+  </g>
+</svg>
