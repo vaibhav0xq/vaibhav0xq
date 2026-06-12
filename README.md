@@ -9,26 +9,26 @@ I enjoy turning ideas into working products with clean interfaces, useful flows 
 - Web3 apps, wallets, identity and proof layers
 - Games and interactive experiences
 - Developer tools, packages and experiments
-- Hackathon builds and product MVPs
+- Hackathon builds and shipped prototypes
 - Testing, software quality and better developer workflows
 
 ## Featured projects
 
 | Project | What it is | Stack |
 |---|---|---|
-| [ARC Identity](https://github.com/vaibhav0xq/arc-identity-public) | Wallet identity and reputation tool for Arc users | Next.js, TypeScript, Supabase, EVM |
-| [Receipts Network](https://github.com/vaibhav0xq/receipts-network) | Public proof pages for preserving links, files and context | Next.js, TypeScript, Supabase |
+| [Arc Identity](https://github.com/vaibhav0xq/arc-identity-public) | Wallet identity and reputation layer for the Arc ecosystem | Next.js, TypeScript, EVM |
+| [Receipts Network](https://github.com/vaibhav0xq/receipts-network) | Public proof pages for preserving links, files and context | Next.js, TypeScript |
 | [Vyom](https://github.com/vaibhav0xq/vyom) | Time-locked digital capsules with Sui wallet reveal flows | Next.js, TypeScript, Sui, Move |
-| [FieldSync AI](https://github.com/vaibhav0xq/fieldsync-ai) | Offline-first incident reporting system | HTML, CSS, JavaScript, Node.js |
+| [FieldSync](https://github.com/vaibhav0xq/fieldsync-ai) | Offline-first incident reporting system | HTML, CSS, JavaScript, Node.js |
 
 ## Stack
 
-TypeScript · Next.js · React · Tailwind CSS · Node.js · Supabase · PostgreSQL · Wallet integrations · Sui · Move
+TypeScript · Next.js · React · Tailwind CSS · Node.js · Wallet integrations · EVM · Sui · Move · PostgreSQL
 
 ## Currently
 
-- Building public MVPs
-- Improving project documentation
+- Building and refining public software projects
+- Improving documentation and technical clarity
 - Learning game development and package publishing
 - Exploring new chains, protocols and developer workflows
 
