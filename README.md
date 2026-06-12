@@ -51,11 +51,9 @@ My work usually starts with a rough product idea, then moves into a small workin
 
 ## Work
 
-| Project | What it explores |
-|---|---|
-| [Arc Identity](https://github.com/vaibhav0xq/arc-identity-public) | Wallet identity and reputation layer for the Arc ecosystem |
-| [Vyom](https://github.com/vaibhav0xq/vyom) | Time-locked digital capsules with Sui wallet reveal flows |
-| [Receipts Network](https://github.com/vaibhav0xq/receipts-network) | Public proof pages for preserving links, files and context |
+<p align="center">
+  <img src="assets/work-forge.svg" alt="Animated selected work showcase" width="100%" />
+</p>
 
 <p align="center">
   <a href="https://github.com/vaibhav0xq/arc-identity-public">
