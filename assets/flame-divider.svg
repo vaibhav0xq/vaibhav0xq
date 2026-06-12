@@ -1,0 +1,28 @@
+<svg width="1200" height="84" viewBox="0 0 1200 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="96" y1="42" x2="1104" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".36" stop-color="#FBBF24"/>
+      <stop offset=".72" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .line{stroke-dasharray:28 18;animation:flow 5.6s linear infinite}
+      .ember{animation:ember 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes flow{to{stroke-dashoffset:-184}}
+      @keyframes ember{0%,100%{opacity:.25;transform:translateY(10px) scale(.7)}50%{opacity:1;transform:translateY(-9px) scale(1.18)}}
+    </style>
+  </defs>
+  <rect width="1200" height="84" fill="#05070D"/>
+  <path class="line" d="M96 42H1104" stroke="url(#g)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+  <g fill="#F59E0B" filter="url(#glow)">
+    <circle class="ember" cx="220" cy="42" r="5"/>
+    <circle class="ember" cx="455" cy="42" r="4" style="animation-delay:.5s"/>
+    <circle class="ember" cx="698" cy="42" r="5" style="animation-delay:1s"/>
+    <circle class="ember" cx="930" cy="42" r="4" style="animation-delay:1.5s"/>
+  </g>
+</svg>

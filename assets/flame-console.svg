@@ -1,0 +1,101 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(884 217) rotate(90) scale(158 220)">
+      <stop stop-color="#FFB020" stop-opacity=".88"/>
+      <stop offset=".38" stop-color="#FF5A1F" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#0B0F19" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shell" x1="64" y1="42" x2="1136" y2="378" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset=".56" stop-color="#0A0F1A"/>
+      <stop offset="1" stop-color="#170B05"/>
+    </linearGradient>
+    <linearGradient id="fireline" x1="104" y1="320" x2="1096" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".32" stop-color="#FBBF24"/>
+      <stop offset=".7" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="card">
+      <rect x="64" y="42" width="1072" height="336" rx="34"/>
+    </clipPath>
+    <style>
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .mono{font-family:JetBrains Mono,Consolas,Menlo,monospace}
+      .grid{opacity:.22}
+      .run{stroke-dasharray:34 22;animation:run 7s linear infinite}
+      .spark{animation:spark 3.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .spark2{animation:spark 2.9s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .heat{animation:heat 4.8s ease-in-out infinite}
+      .cursor{animation:cursor 1.05s steps(2,end) infinite}
+      .float{animation:float 4.4s ease-in-out infinite}
+      .flicker{animation:flicker 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center bottom}
+      @keyframes run{to{stroke-dashoffset:-224}}
+      @keyframes spark{0%,100%{opacity:.22;transform:translateY(10px) scale(.75)}50%{opacity:1;transform:translateY(-12px) scale(1.12)}}
+      @keyframes heat{0%,100%{opacity:.35;transform:translateX(-16px)}50%{opacity:.78;transform:translateX(18px)}}
+      @keyframes cursor{0%,45%{opacity:1}46%,100%{opacity:0}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+      @keyframes flicker{0%,100%{opacity:.94;transform:skewX(0deg) scaleY(1)}35%{opacity:1;transform:skewX(-2deg) scaleY(1.05)}68%{opacity:.88;transform:skewX(3deg) scaleY(.96)}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="38" fill="#05070D"/>
+  <g clip-path="url(#card)">
+    <rect x="64" y="42" width="1072" height="336" rx="34" fill="url(#shell)"/>
+    <rect x="64" y="42" width="1072" height="336" fill="url(#core)"/>
+    <g class="grid">
+      <path d="M64 104H1136M64 166H1136M64 228H1136M64 290H1136M64 352H1136" stroke="#9CA3AF"/>
+      <path d="M160 42V378M256 42V378M352 42V378M448 42V378M544 42V378M640 42V378M736 42V378M832 42V378M928 42V378M1024 42V378" stroke="#9CA3AF"/>
+    </g>
+
+    <g opacity=".65">
+      <path class="heat" d="M735 142C810 108 894 108 1000 72" stroke="#FB923C" stroke-width="2"/>
+      <path class="heat" d="M720 180C816 138 930 151 1078 101" stroke="#FBBF24" stroke-width="2" style="animation-delay:.8s"/>
+      <path class="heat" d="M746 225C841 188 952 199 1106 154" stroke="#38BDF8" stroke-width="2" style="animation-delay:1.4s"/>
+    </g>
+
+    <g transform="translate(112 96)">
+      <rect width="152" height="34" rx="17" fill="#111827" stroke="#374151"/>
+      <circle cx="22" cy="17" r="6" fill="#F59E0B"/>
+      <text x="38" y="22" class="mono" font-size="14" fill="#FDE68A">vaibhav0xq</text>
+    </g>
+
+    <text x="112" y="190" class="sans" font-size="64" font-weight="850" fill="#FFFFFF">Vaibhav Gangani</text>
+    <text x="116" y="232" class="sans" font-size="25" font-weight="750" fill="#E5E7EB">developer building Web3 apps, games and tools</text>
+    <text x="116" y="288" class="mono" font-size="18" font-weight="800" fill="#FBBF24">test the idea, ship the lesson, improve the system</text>
+    <rect class="cursor" x="693" y="270" width="14" height="24" rx="2" fill="#FBBF24"/>
+
+    <g transform="translate(112 318)" class="mono" font-size="13" font-weight="800">
+      <rect width="82" height="30" rx="15" fill="#111827" stroke="#334155"/>
+      <text x="22" y="20" fill="#CBD5E1">web3</text>
+      <rect x="96" width="86" height="30" rx="15" fill="#111827" stroke="#334155"/>
+      <text x="121" y="20" fill="#CBD5E1">games</text>
+      <rect x="196" width="80" height="30" rx="15" fill="#111827" stroke="#334155"/>
+      <text x="221" y="20" fill="#CBD5E1">tools</text>
+      <rect x="290" width="96" height="30" rx="15" fill="#111827" stroke="#334155"/>
+      <text x="313" y="20" fill="#CBD5E1">proofs</text>
+    </g>
+
+    <g transform="translate(813 104)" filter="url(#softGlow)">
+      <path class="flicker" d="M76 196C26 174 8 129 34 88C47 66 55 44 53 17C89 42 106 74 102 112C124 88 130 56 128 34C164 70 174 119 155 154C142 178 115 194 76 196Z" fill="#FF6A00"/>
+      <path class="flicker" d="M78 196C47 176 39 143 56 115C68 95 75 72 71 50C99 73 112 98 106 128C122 113 130 91 133 73C153 105 155 143 136 169C124 185 105 194 78 196Z" fill="#FBBF24" style="animation-delay:.35s"/>
+      <path class="flicker" d="M80 196C60 178 58 153 72 133C82 119 88 103 87 86C108 109 116 134 106 154C124 148 132 135 137 121C143 150 132 179 80 196Z" fill="#FFFFFF" style="animation-delay:.7s"/>
+    </g>
+
+    <path class="run" d="M104 356H1096" stroke="url(#fireline)" stroke-width="5" stroke-linecap="round"/>
+    <g fill="#F59E0B">
+      <circle class="spark" cx="324" cy="354" r="5"/>
+      <circle class="spark2" cx="548" cy="354" r="4"/>
+      <circle class="spark" cx="764" cy="354" r="5" style="animation-delay:.7s"/>
+      <circle class="spark2" cx="982" cy="354" r="4" style="animation-delay:1.2s"/>
+    </g>
+  </g>
+  <rect x="64" y="42" width="1072" height="336" rx="34" stroke="#334155" stroke-width="3"/>
+</svg>
