@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/flame-console.svg" alt="Vaibhav Gangani animated flame console banner" width="100%" />
+  <img src="assets/flame-console.svg" alt="Vaibhav animated flame console banner" width="100%" />
 </p>
 
 <h2 align="center">
