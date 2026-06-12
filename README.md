@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/vaibhav0xq"><img src="https://img.shields.io/badge/GitHub-vaibhav0xq-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://x.com/vaibhav_0xq"><img src="https://img.shields.io/badge/X-vaibhav__0xq-111827?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <img src="https://img.shields.io/badge/Profile-Developer-F59E0B?style=for-the-badge&logo=git&logoColor=111827" alt="Developer profile" />
+  <img src="https://komarev.com/ghpvc/?username=vaibhav0xq&style=for-the-badge&label=Profile+views&color=F97316" alt="Profile views" />
 </p>
 
 <p align="center">
@@ -18,14 +18,13 @@
 
 ## About
 
-Product-minded developer building Web3 apps, games, tools and experimental software.
+I build product-focused software across Web3, interactive experiences and developer tools.
 
-I like turning rough ideas into working products with clean interfaces, useful flows, readable systems and solid documentation.
+My work usually starts with a rough product idea, then moves into a small working version with clear flows, readable systems and enough documentation for another developer to understand the path.
 
-```txt
-Current loop
-Idea -> prototype -> test path -> document -> improve -> ship
-```
+<p align="center">
+  <img src="assets/build-loop.svg" alt="Animated product build loop" width="100%" />
+</p>
 
 ## Focus
 
@@ -80,7 +79,7 @@ Idea -> prototype -> test path -> document -> improve -> ship
 ## GitHub Motion
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vaibhav0xq&theme=onedark&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub trophies" />
+  <img src="assets/github-motion.svg" alt="Animated GitHub motion panel" width="100%" />
 </p>
 
 <p align="center">
@@ -96,25 +95,11 @@ Idea -> prototype -> test path -> document -> improve -> ship
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav0xq&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Flow&color=F59E0B&line=F97316&point=FBBF24" alt="Contribution activity graph" />
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vaibhav0xq/vaibhav0xq/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/vaibhav0xq/vaibhav0xq/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
-  </picture>
-</p>
-
-<p align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
-</p>
-
 ## Build Style
 
-```txt
-Map       Start with the user flow and the actual job the product should do
-Build     Ship a small working version before over-polishing the idea
-Test      Try the real path, fix rough edges and document what changed
-Improve   Treat feedback as product signal and keep iterating
-```
+<p align="center">
+  <img src="assets/build-style.svg" alt="Animated build style panel" width="100%" />
+</p>
 
 <details>
   <summary>Exploring next</summary>
