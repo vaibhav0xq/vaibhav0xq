@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/vaibhav0xq"><img src="https://img.shields.io/badge/GitHub-vaibhav0xq-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://x.com/vaibhav_0xq"><img src="https://img.shields.io/badge/X-vaibhav__0xq-111827?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://arcidentity.in"><img src="https://img.shields.io/badge/Web-arcidentity.in-F59E0B?style=for-the-badge&logo=firefox&logoColor=111827" alt="Website" /></a>
+  <img src="https://img.shields.io/badge/Profile-Developer-F59E0B?style=for-the-badge&logo=git&logoColor=111827" alt="Developer profile" />
 </p>
 
 <p align="center">
