@@ -16,8 +16,10 @@
   <img src="assets/flame-divider.svg" alt="" width="100%" />
 </p>
 
+## About
+
 <p align="center">
-  <img src="assets/title-about.svg" alt="About" width="100%" />
+  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
 </p>
 
 I build product-focused software across Web3, interactive experiences and developer tools.
@@ -28,8 +30,10 @@ My work usually starts with a rough product idea, then moves into a small workin
   <img src="assets/build-loop.svg" alt="Animated product build loop" width="100%" />
 </p>
 
+## Focus
+
 <p align="center">
-  <img src="assets/title-focus.svg" alt="Focus" width="100%" />
+  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
 </p>
 
 - Web3 apps, wallets, identity and proof layers
@@ -38,8 +42,10 @@ My work usually starts with a rough product idea, then moves into a small workin
 - Hackathon builds and shipped prototypes
 - Testing, software quality and better developer workflows
 
+## Stack
+
 <p align="center">
-  <img src="assets/title-stack.svg" alt="Stack" width="100%" />
+  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
 </p>
 
 <p align="center">
@@ -50,8 +56,10 @@ My work usually starts with a rough product idea, then moves into a small workin
   <img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,tailwind,postgres,git,github,vscode&theme=dark" alt="Tech stack icons" />
 </p>
 
+## Work
+
 <p align="center">
-  <img src="assets/title-work.svg" alt="Work" width="100%" />
+  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
 </p>
 
 <p align="center">
@@ -77,8 +85,10 @@ My work usually starts with a rough product idea, then moves into a small workin
   <img src="assets/flame-divider.svg" alt="" width="100%" />
 </p>
 
+## GitHub Motion
+
 <p align="center">
-  <img src="assets/title-github-motion.svg" alt="GitHub Motion" width="100%" />
+  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
 </p>
 
 <p align="center">
@@ -98,8 +108,10 @@ My work usually starts with a rough product idea, then moves into a small workin
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav0xq&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Flow&color=F59E0B&line=F97316&point=FBBF24" alt="Contribution activity graph" />
 </p>
 
+## Build Style
+
 <p align="center">
-  <img src="assets/title-build-style.svg" alt="Build Style" width="100%" />
+  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
 </p>
 
 <p align="center">

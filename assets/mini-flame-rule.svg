@@ -1,0 +1,23 @@
+<svg width="1200" height="38" viewBox="0 0 1200 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0" y1="19" x2="1200" y2="19">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".42" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-120%" width="140%" height="340%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .line{stroke-dasharray:24 18;animation:flow 6s linear infinite}
+      .ember{animation:ember 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes flow{to{stroke-dashoffset:-168}}
+      @keyframes ember{0%,100%{opacity:.25;transform:translateY(5px) scale(.75)}50%{opacity:1;transform:translateY(-5px) scale(1.12)}}
+    </style>
+  </defs>
+  <path class="line" d="M10 19H1190" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <circle class="ember" cx="960" cy="19" r="4" fill="#F59E0B" filter="url(#glow)"/>
+  <circle class="ember" cx="1015" cy="19" r="3" fill="#FBBF24" filter="url(#glow)" style="animation-delay:.7s"/>
+  <circle class="ember" cx="1062" cy="19" r="3" fill="#F97316" filter="url(#glow)" style="animation-delay:1.4s"/>
+</svg>

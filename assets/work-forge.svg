@@ -72,9 +72,12 @@
     <circle class="ember" cx="962" cy="270" r="6" fill="#F97316" style="animation-delay:1.1s"/>
   </g>
 
-  <g transform="translate(1012 58)" filter="url(#glow)">
-    <path class="flame" d="M40 92C11 77 5 48 23 22C33 8 38 -8 36 -26C62 -8 77 16 70 48C85 32 91 10 90 -4C115 26 113 68 94 87C80 101 56 105 40 92Z" fill="#FF6A00"/>
-    <path class="flame" d="M41 92C24 77 24 54 36 38C44 26 49 11 48 -2C67 16 76 37 68 57C82 49 87 34 90 21C103 50 92 80 41 92Z" fill="#FBBF24" style="animation-delay:.35s"/>
-    <path class="flame" d="M43 92C31 78 34 60 45 49C54 40 57 29 57 18C72 40 73 68 43 92Z" fill="#FFFFFF" style="animation-delay:.7s"/>
+  <g transform="translate(1010 64)" filter="url(#glow)">
+    <circle cx="54" cy="54" r="48" fill="#0B1220" stroke="#334155" stroke-width="3"/>
+    <circle cx="54" cy="54" r="31" stroke="#F59E0B" stroke-width="3" opacity=".7"/>
+    <path class="rail" d="M54 12V28M54 80V96M12 54H28M80 54H96" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M66 30L57 62L35 76L44 44L66 30Z" fill="#F97316"/>
+    <path d="M57 62L44 44" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+    <circle class="ember" cx="54" cy="54" r="5" fill="#FBBF24"/>
   </g>
 </svg>
