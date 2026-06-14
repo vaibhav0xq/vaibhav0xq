@@ -2,9 +2,14 @@
   <defs>
     <linearGradient id="track" x1="112" y1="96" x2="1088" y2="96" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
-      <stop offset=".34" stop-color="#FBBF24"/>
-      <stop offset=".68" stop-color="#F97316"/>
-      <stop offset="1" stop-color="#EF4444"/>
+      <stop offset=".42" stop-color="#67E8F9"/>
+      <stop offset=".74" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="56" y1="136" x2="1144" y2="136" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9" stop-opacity=".34"/>
+      <stop offset=".48" stop-color="#22D3EE" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#F97316" stop-opacity=".18"/>
     </linearGradient>
     <filter id="glow" x="-20%" y="-80%" width="140%" height="260%">
       <feGaussianBlur stdDeviation="5" result="blur"/>
@@ -16,21 +21,39 @@
     <style>
       .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:800}
       .mono{font-family:JetBrains Mono,Consolas,Menlo,monospace}
-      .track{stroke-dasharray:26 18;animation:track 5.8s linear infinite}
-      .runner{animation:runner 6s ease-in-out infinite;offset-path:path("M 112 96 C 260 48, 382 144, 520 96 S 792 48, 936 96 S 1048 144, 1088 96");}
+      .track{stroke-dasharray:34 20;animation:track 6.5s linear infinite}
+      .wake{stroke-dasharray:9 18;animation:wave 8s linear infinite reverse}
+      .runner{animation:runner 7s ease-in-out infinite;offset-path:path("M 112 96 C 250 42, 382 138, 520 96 S 792 50, 936 96 S 1050 144, 1088 96");}
+      .wave{stroke-dasharray:38 22;animation:wave 8s linear infinite}
       .pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
       .chip{animation:chip 6s ease-in-out infinite}
+      .sail{animation:sail 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
       @keyframes track{to{stroke-dashoffset:-176}}
+      @keyframes wave{to{stroke-dashoffset:-240}}
       @keyframes runner{0%{offset-distance:0%}100%{offset-distance:100%}}
       @keyframes pulse{0%,100%{opacity:.64;transform:scale(.96)}50%{opacity:1;transform:scale(1.08)}}
       @keyframes chip{0%,100%{opacity:.62}15%,28%{opacity:1}}
+      @keyframes sail{0%,100%{transform:rotate(-4deg) translateY(0)}50%{transform:rotate(4deg) translateY(-2px)}}
     </style>
   </defs>
   <rect width="1200" height="190" rx="22" fill="#0D1117"/>
   <rect x="24" y="20" width="1152" height="150" rx="18" fill="#111827" stroke="#30363D"/>
+  <path d="M40 138C178 110 284 158 420 132C552 106 666 150 794 126C930 100 1038 144 1160 116V170H40V138Z" fill="url(#sea)"/>
+  <path class="wave" d="M56 137C180 111 292 154 422 132C552 110 664 148 796 126C930 102 1038 142 1144 116" stroke="#38BDF8" stroke-width="2" opacity=".55"/>
   <text x="60" y="58" class="mono" font-size="16" font-weight="800" fill="#F59E0B">current loop</text>
-  <path class="track" d="M112 96C260 48 382 144 520 96S792 48 936 96S1048 144 1088 96" stroke="url(#track)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
-  <circle class="runner" r="9" fill="#FBBF24" filter="url(#glow)"/>
+  <path class="track" d="M112 96C250 42 382 138 520 96S792 50 936 96S1050 144 1088 96" stroke="url(#track)" stroke-width="6" stroke-linecap="round" filter="url(#glow)"/>
+  <path class="wake" d="M112 104C250 50 382 146 520 104S792 58 936 104S1050 152 1088 104" stroke="#E0F2FE" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+  <g class="runner" filter="url(#glow)">
+    <g class="sail">
+      <path d="M-34 10H36L24 28H-22Z" fill="#7C4A22"/>
+      <path d="M-28 10C-14 22 14 22 30 10" fill="#A16207"/>
+      <path d="M-6 10V-42" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-1 -40C25 -26 27 -6 -1 9Z" fill="#FBBF24"/>
+      <path d="M-10 -36C-35 -22 -31 -4 -10 9Z" fill="#E0F2FE"/>
+      <path d="M-38 29C-18 38 16 38 40 29" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-28 34C-10 41 12 41 30 34" stroke="#E0F2FE" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
   <g class="label" font-size="18">
     <g class="chip" style="animation-delay:0s">
       <rect x="66" y="122" width="112" height="34" rx="17" fill="#0B1220" stroke="#334155"/>
