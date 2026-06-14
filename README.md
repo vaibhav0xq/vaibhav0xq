@@ -110,6 +110,14 @@ My work usually starts with a rough product idea, then moves into a small workin
   <img src="assets/exploring-next.svg?v=2" alt="Exploring next roadmap" width="100%" />
 </p>
 
+**Exploring next**
+
+- More polished public software projects
+- Better docs, demos and issue roadmaps
+- Game development and interactive systems
+- Package publishing and reusable developer tools
+- More chains, protocols and wallet workflows
+
 <p align="center">
   <img src="assets/flame-footer.svg" alt="Animated flame footer" width="100%" />
 </p>
