@@ -19,7 +19,7 @@
 ## About
 
 <p align="center">
-  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
+  <img src="assets/mini-flame-rule.svg?v=2" alt="" width="100%" />
 </p>
 
 I build product-focused software across Web3, interactive experiences and developer tools.
@@ -27,13 +27,13 @@ I build product-focused software across Web3, interactive experiences and develo
 My work usually starts with a rough product idea, then moves into a small working version with clear flows, readable systems and enough documentation for another developer to understand the path.
 
 <p align="center">
-  <img src="assets/build-loop.svg" alt="Animated product build loop" width="100%" />
+  <img src="assets/build-loop.svg?v=2" alt="Animated product build loop" width="100%" />
 </p>
 
 ## Focus
 
 <p align="center">
-  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
+  <img src="assets/mini-flame-rule.svg?v=2" alt="" width="100%" />
 </p>
 
 - Web3 apps, wallets, identity and proof layers
@@ -45,11 +45,11 @@ My work usually starts with a rough product idea, then moves into a small workin
 ## Stack
 
 <p align="center">
-  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
+  <img src="assets/mini-flame-rule.svg?v=2" alt="" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/stack-forge.svg" alt="Animated stack forge panel" width="100%" />
+  <img src="assets/stack-forge.svg?v=2" alt="Animated stack forge panel" width="100%" />
 </p>
 
 <p align="center">
@@ -59,11 +59,11 @@ My work usually starts with a rough product idea, then moves into a small workin
 ## Work
 
 <p align="center">
-  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
+  <img src="assets/mini-flame-rule.svg?v=2" alt="" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/work-forge.svg" alt="Animated selected work showcase" width="100%" />
+  <img src="assets/work-forge.svg?v=2" alt="Animated selected work showcase" width="100%" />
 </p>
 
 <p align="center">
@@ -88,11 +88,11 @@ My work usually starts with a rough product idea, then moves into a small workin
 ## GitHub Motion
 
 <p align="center">
-  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
+  <img src="assets/mini-flame-rule.svg?v=2" alt="" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/github-motion.svg" alt="Animated GitHub motion panel" width="100%" />
+  <img src="assets/github-motion.svg?v=2" alt="Animated GitHub motion panel" width="100%" />
 </p>
 
 <p align="center">
@@ -111,11 +111,11 @@ My work usually starts with a rough product idea, then moves into a small workin
 ## Build Style
 
 <p align="center">
-  <img src="assets/mini-flame-rule.svg" alt="" width="100%" />
+  <img src="assets/mini-flame-rule.svg?v=2" alt="" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/build-style.svg" alt="Animated build style panel" width="100%" />
+  <img src="assets/build-style.svg?v=2" alt="Animated build style panel" width="100%" />
 </p>
 
 <details>
