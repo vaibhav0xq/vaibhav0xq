@@ -27,7 +27,7 @@ I build product-focused software across Web3, interactive experiences and develo
 My work usually starts with a rough product idea, then moves into a small working version with clear flows, readable systems and enough documentation for another developer to understand the path.
 
 <p align="center">
-  <img src="assets/build-loop.svg?v=2" alt="Animated product build loop" width="100%" />
+  <img src="assets/build-loop.svg?v=3" alt="Animated product build loop" width="100%" />
 </p>
 
 ## Focus
