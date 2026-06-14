@@ -8,8 +8,8 @@
     @keyframes pulse{50%{opacity:.45;transform:scale(.9)}}
   </style>
   <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
-  <path class="line" d="M40 66C214 78 302 30 470 52S778 76 1058 34" stroke="#38BDF8" stroke-width="2.5" opacity=".9"/>
-  <path class="line" d="M40 70C250 80 342 46 512 60S808 68 1058 44" stroke="#F59E0B" stroke-width="2" opacity=".75"/>
+  <path class="line" d="M320 58C430 36 520 56 626 52S808 66 1058 34" stroke="#38BDF8" stroke-width="2.5" opacity=".9"/>
+  <path class="line" d="M320 68C454 48 540 64 646 60S824 68 1058 44" stroke="#F59E0B" stroke-width="2" opacity=".75"/>
   <text x="32" y="55" class="title">Focus</text>
   <text x="148" y="55" class="tag">what I am exploring</text>
   <path class="ember" d="M990 55C979 45 987 34 996 25C998 36 1012 40 1010 54C1008 68 990 70 990 55Z" fill="#F97316"/>

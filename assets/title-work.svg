@@ -8,7 +8,7 @@
     @keyframes rise{50%{transform:translateY(-6px);opacity:.6}}
   </style>
   <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
-  <path class="map" d="M40 68C178 26 318 70 456 38S722 66 1058 26" stroke="#F59E0B" stroke-width="2.5"/>
+  <path class="map" d="M282 64C390 44 484 70 596 42S806 58 1058 26" stroke="#F59E0B" stroke-width="2.5"/>
   <text x="32" y="55" class="title">Work</text>
   <text x="132" y="55" class="tag">projects and proof</text>
   <circle class="coin" cx="740" cy="33" r="4" fill="#FBBF24"/>

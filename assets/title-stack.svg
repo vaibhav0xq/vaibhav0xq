@@ -8,7 +8,7 @@
     @keyframes blink{50%{opacity:.4}}
   </style>
   <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
-  <path class="trace" d="M36 66H266L304 34H512L548 64H830L870 38H1064" stroke="#F59E0B" stroke-width="2.5"/>
+  <path class="trace" d="M306 34H512L548 64H830L870 38H1064" stroke="#F59E0B" stroke-width="2.5"/>
   <text x="32" y="55" class="title">Stack</text>
   <text x="142" y="55" class="tag">tools I reach for</text>
   <circle class="node" cx="304" cy="34" r="5" fill="#38BDF8"/>

@@ -8,8 +8,8 @@
     @keyframes bars{50%{transform:scaleY(.55)}}
   </style>
   <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
-  <path class="wave" d="M40 65C172 52 198 26 318 44S494 76 610 50S774 22 1056 44" stroke="#38BDF8" stroke-width="2.5"/>
-  <path class="wave" d="M40 70C188 60 220 42 330 56S502 80 640 56S810 36 1056 52" stroke="#F59E0B" stroke-width="2" opacity=".75"/>
+  <path class="wave" d="M430 58C520 76 594 34 690 48S828 70 1056 44" stroke="#38BDF8" stroke-width="2.5"/>
+  <path class="wave" d="M430 68C530 80 608 48 704 58S848 78 1056 52" stroke="#F59E0B" stroke-width="2" opacity=".75"/>
   <text x="32" y="55" class="title">GitHub Motion</text>
   <text x="290" y="55" class="tag">live profile signals</text>
   <rect class="bar" x="930" y="44" width="10" height="22" rx="4" fill="#38BDF8" style="transform-origin:935px 66px"/>

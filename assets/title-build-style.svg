@@ -8,7 +8,7 @@
     @keyframes mark{50%{transform:translateX(12px);opacity:.7}}
   </style>
   <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
-  <path class="road" d="M42 66H250C318 66 338 32 420 32H610C700 32 704 66 792 66H1058" stroke="#F59E0B" stroke-width="2.5"/>
+  <path class="road" d="M390 36H610C700 36 704 66 792 66H1058" stroke="#F59E0B" stroke-width="2.5"/>
   <text x="32" y="55" class="title">Build Style</text>
   <text x="232" y="55" class="tag">how I move ideas</text>
   <path class="mark" d="M914 47L928 61L958 31" stroke="#38BDF8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>

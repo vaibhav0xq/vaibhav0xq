@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/title-about.svg?v=1" alt="About" width="100%" />
+  <img src="assets/title-about.svg?v=2" alt="About" width="100%" />
 </p>
 
 I build product-focused software across Web3, interactive experiences and developer tools.
@@ -29,7 +29,7 @@ My work usually starts with a rough product idea, then moves into a small workin
 </p>
 
 <p align="center">
-  <img src="assets/title-focus.svg?v=1" alt="Focus" width="100%" />
+  <img src="assets/title-focus.svg?v=2" alt="Focus" width="100%" />
 </p>
 
 - Web3 apps, wallets, identity and proof layers
@@ -39,7 +39,7 @@ My work usually starts with a rough product idea, then moves into a small workin
 - Testing, software quality and better developer workflows
 
 <p align="center">
-  <img src="assets/title-stack.svg?v=1" alt="Stack" width="100%" />
+  <img src="assets/title-stack.svg?v=2" alt="Stack" width="100%" />
 </p>
 
 <p align="center">
@@ -51,7 +51,7 @@ My work usually starts with a rough product idea, then moves into a small workin
 </p>
 
 <p align="center">
-  <img src="assets/title-work.svg?v=1" alt="Work" width="100%" />
+  <img src="assets/title-work.svg?v=2" alt="Work" width="100%" />
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ My work usually starts with a rough product idea, then moves into a small workin
 </p>
 
 <p align="center">
-  <img src="assets/title-github-motion.svg?v=1" alt="GitHub Motion" width="100%" />
+  <img src="assets/title-github-motion.svg?v=2" alt="GitHub Motion" width="100%" />
 </p>
 
 <p align="center">
@@ -99,7 +99,7 @@ My work usually starts with a rough product idea, then moves into a small workin
 </p>
 
 <p align="center">
-  <img src="assets/title-build-style.svg?v=1" alt="Build Style" width="100%" />
+  <img src="assets/title-build-style.svg?v=2" alt="Build Style" width="100%" />
 </p>
 
 <p align="center">
@@ -107,7 +107,9 @@ My work usually starts with a rough product idea, then moves into a small workin
 </p>
 
 <details>
-  <summary>Exploring next</summary>
+  <summary>
+    <img src="assets/exploring-next.svg?v=1" alt="Exploring next" width="100%" />
+  </summary>
 
 - More polished public software projects
 - Better docs, demos and issue roadmaps
