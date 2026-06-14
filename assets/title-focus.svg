@@ -1,0 +1,17 @@
+<svg width="1100" height="92" viewBox="0 0 1100 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title{font:800 34px system-ui,-apple-system,Segoe UI,sans-serif;fill:#F8FAFC}
+    .tag{font:800 13px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#F59E0B}
+    .line{stroke-dasharray:12 14;animation:dash 5.5s linear infinite}
+    .ember{filter:drop-shadow(0 0 9px #F97316);animation:pulse 2.4s ease-in-out infinite}
+    @keyframes dash{to{stroke-dashoffset:-130}}
+    @keyframes pulse{50%{opacity:.45;transform:scale(.9)}}
+  </style>
+  <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
+  <path class="line" d="M40 66C214 78 302 30 470 52S778 76 1058 34" stroke="#38BDF8" stroke-width="2.5" opacity=".9"/>
+  <path class="line" d="M40 70C250 80 342 46 512 60S808 68 1058 44" stroke="#F59E0B" stroke-width="2" opacity=".75"/>
+  <text x="32" y="55" class="title">Focus</text>
+  <text x="148" y="55" class="tag">what I am exploring</text>
+  <path class="ember" d="M990 55C979 45 987 34 996 25C998 36 1012 40 1010 54C1008 68 990 70 990 55Z" fill="#F97316"/>
+  <path d="M996 61C990 54 996 46 1001 39C1004 48 1012 52 1007 62C1004 68 997 69 996 61Z" fill="#FEF3C7"/>
+</svg>

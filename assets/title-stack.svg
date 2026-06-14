@@ -1,0 +1,17 @@
+<svg width="1100" height="92" viewBox="0 0 1100 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title{font:800 34px system-ui,-apple-system,Segoe UI,sans-serif;fill:#F8FAFC}
+    .tag{font:800 13px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#F59E0B}
+    .trace{stroke-dasharray:8 14;animation:move 4.8s linear infinite}
+    .node{animation:blink 2.6s ease-in-out infinite}
+    @keyframes move{to{stroke-dashoffset:-110}}
+    @keyframes blink{50%{opacity:.4}}
+  </style>
+  <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
+  <path class="trace" d="M36 66H266L304 34H512L548 64H830L870 38H1064" stroke="#F59E0B" stroke-width="2.5"/>
+  <text x="32" y="55" class="title">Stack</text>
+  <text x="142" y="55" class="tag">tools I reach for</text>
+  <circle class="node" cx="304" cy="34" r="5" fill="#38BDF8"/>
+  <circle class="node" cx="548" cy="64" r="5" fill="#FBBF24" style="animation-delay:.5s"/>
+  <circle class="node" cx="870" cy="38" r="5" fill="#F97316" style="animation-delay:1s"/>
+</svg>
