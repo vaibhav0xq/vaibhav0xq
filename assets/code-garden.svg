@@ -1,0 +1,83 @@
+<svg width="1100" height="280" viewBox="0 0 1100 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .mono{font:800 14px ui-monospace,SFMono-Regular,Menlo,monospace}
+    .title{font:900 34px system-ui,-apple-system,Segoe UI,sans-serif;fill:#FFE7A3;paint-order:stroke;stroke:#1F1206;stroke-width:1;filter:drop-shadow(0 2px 4px rgba(249,115,22,.22))}
+    .copy{font:700 16px system-ui,-apple-system,Segoe UI,sans-serif;fill:#A7F3D0}
+    .muted{fill:#94A3B8}.gold{fill:#FBBF24}.cyan{fill:#38BDF8}.green{fill:#22C55E}.orange{fill:#F97316}
+    .grow{stroke-dasharray:260;stroke-dashoffset:260;animation:grow 4s ease-in-out infinite}
+    .leaf{animation:leaf 3s ease-in-out infinite}
+    .orb{animation:orb 2.4s ease-in-out infinite}
+    .cursor{animation:cursor 1s steps(2) infinite}
+    .rain{animation:rain 5s linear infinite}
+    .pulse{animation:pulse 2.8s ease-in-out infinite}
+    @keyframes grow{45%,75%{stroke-dashoffset:0}100%{stroke-dashoffset:-260}}
+    @keyframes leaf{50%{transform:translateY(-7px) rotate(-4deg);opacity:.75}}
+    @keyframes orb{50%{transform:translateY(-10px) scale(.82);opacity:.45}}
+    @keyframes cursor{50%{opacity:.15}}
+    @keyframes rain{to{transform:translateY(88px)}}
+    @keyframes pulse{50%{opacity:.45;transform:scale(.94)}}
+  </style>
+  <defs>
+    <radialGradient id="soil" cx="50%" cy="35%" r="70%">
+      <stop stop-color="#1E293B"/>
+      <stop offset=".7" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#05070D"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="280" fill="#05070D"/>
+  <path d="M66 214C180 176 318 196 428 164C566 124 704 178 822 146C930 116 1010 144 1050 126V236H66Z" fill="url(#soil)"/>
+  <path d="M66 214C180 176 318 196 428 164C566 124 704 178 822 146C930 116 1010 144 1050 126" stroke="#334155" stroke-width="2"/>
+
+  <g class="rain" opacity=".26">
+    <text x="774" y="20" class="mono cyan">commit</text>
+    <text x="868" y="52" class="mono green">test</text>
+    <text x="976" y="28" class="mono gold">ship</text>
+    <text x="718" y="-24" class="mono muted">docs</text>
+    <text x="940" y="-36" class="mono orange">fix</text>
+  </g>
+
+  <text x="70" y="72" class="mono gold">closing loop</text>
+  <text x="70" y="112" class="title">Grow the next build</text>
+  <text x="72" y="144" class="copy">ideas into systems, systems into releases</text>
+  <text x="72" y="184" class="mono muted">idea -> test -> docs -> release</text>
+  <rect class="cursor" x="322" y="170" width="12" height="20" fill="#FBBF24"/>
+
+  <g transform="translate(570 204)" filter="url(#glow)">
+    <path class="grow" d="M0 0C-18 -40 -14 -72 12 -102C34 -126 68 -130 96 -158" stroke="#22C55E" stroke-width="8" stroke-linecap="round"/>
+    <path class="grow" d="M0 0C20 -42 18 -78 -4 -112C-20 -138 -54 -148 -84 -170" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" style="animation-delay:.2s"/>
+    <path class="grow" d="M0 0C8 -52 44 -88 96 -98C142 -106 174 -84 212 -74" stroke="#FBBF24" stroke-width="5" stroke-linecap="round" style="animation-delay:.4s"/>
+
+    <g class="leaf" style="animation-delay:.1s">
+      <path d="M82 -158C58 -168 50 -192 72 -202C98 -190 104 -172 82 -158Z" fill="#22C55E"/>
+    <text x="58" y="-210" class="mono gold">docs</text>
+    </g>
+    <g class="leaf" style="animation-delay:.5s">
+      <path d="M-86 -170C-114 -168 -130 -190 -112 -208C-82 -208 -68 -190 -86 -170Z" fill="#38BDF8"/>
+    <text x="-130" y="-218" class="mono cyan">tests</text>
+    </g>
+    <g class="leaf" style="animation-delay:.9s">
+      <path d="M214 -74C194 -52 204 -28 232 -34C246 -58 238 -76 214 -74Z" fill="#FBBF24"/>
+      <text x="212" y="-18" class="mono gold">release</text>
+    </g>
+
+    <circle class="orb" cx="-34" cy="-60" r="7" fill="#38BDF8"/>
+    <circle class="orb" cx="42" cy="-82" r="7" fill="#22C55E" style="animation-delay:.45s"/>
+    <circle class="orb" cx="130" cy="-116" r="7" fill="#FBBF24" style="animation-delay:.9s"/>
+  </g>
+
+  <g transform="translate(806 190)">
+    <path class="pulse" d="M0 28H176" stroke="#38BDF8" stroke-width="2"/>
+    <text x="22" y="20" class="mono cyan">next branch ready</text>
+  </g>
+
+  <g transform="translate(72 226)">
+    <text x="0" y="0" class="mono gold">ideas</text>
+    <text x="134" y="0" class="mono cyan">systems</text>
+    <text x="292" y="0" class="mono green">quality</text>
+  </g>
+</svg>

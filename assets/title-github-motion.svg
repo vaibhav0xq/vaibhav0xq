@@ -1,6 +1,6 @@
 <svg width="1100" height="92" viewBox="0 0 1100 92" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .title{font:800 34px system-ui,-apple-system,Segoe UI,sans-serif;fill:#F8FAFC}
+    .title{font:800 34px system-ui,-apple-system,Segoe UI,sans-serif;fill:url(#titleGrad);paint-order:stroke;stroke:#1F1206;stroke-width:1;filter:drop-shadow(0 2px 4px rgba(249,115,22,.22))}
     .tag{font:800 13px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#F59E0B}
     .wave{stroke-dasharray:10 13;animation:flow 4.5s linear infinite}
     .bar{animation:bars 1.8s ease-in-out infinite}
@@ -8,6 +8,7 @@
     @keyframes bars{50%{transform:scaleY(.55)}}
   </style>
   <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
+  <defs><linearGradient id="titleGrad" x1="32" y1="30" x2="330" y2="64"><stop stop-color="#FFF7D6"/><stop offset=".45" stop-color="#FBBF24"/><stop offset="1" stop-color="#F97316"/></linearGradient></defs>
   <path class="wave" d="M430 58C520 76 594 34 690 48S828 70 1056 44" stroke="#38BDF8" stroke-width="2.5"/>
   <path class="wave" d="M430 68C530 80 608 48 704 58S848 78 1056 52" stroke="#F59E0B" stroke-width="2" opacity=".75"/>
   <text x="32" y="55" class="title">GitHub Motion</text>

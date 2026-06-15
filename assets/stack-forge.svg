@@ -9,7 +9,7 @@
   <rect x="30" y="28" width="1140" height="274" rx="20" fill="#111827" stroke="#30363D"/>
   <rect x="30" y="28" width="1140" height="274" rx="20" fill="url(#heat)"/>
   <text x="64" y="70" class="m" font-size="16" font-weight="800" fill="#F59E0B">stack forge</text>
-  <text x="64" y="104" class="s" font-size="28" font-weight="850" fill="#F8FAFC">Tools for product-shaped software</text>
+  <text x="64" y="104" class="s" font-size="28" font-weight="850" fill="#FFF1B8">Tools for product-shaped software</text>
   <text x="64" y="134" class="s" font-size="17" font-weight="700" fill="#94A3B8">frontend systems, backend paths, wallets, data and developer workflow</text>
   <path class="rail" d="M84 262H1116" stroke="url(#rail)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
   <g transform="translate(86 172)"><g class="card"><rect width="210" height="58" rx="14" fill="#0B1220" stroke="#334155"/><text x="20" y="25" class="m" font-size="14" font-weight="900" fill="#F59E0B">Frontend</text><text x="20" y="44" class="s" font-size="15" font-weight="750" fill="#E5E7EB">TypeScript / React / Next</text></g></g>

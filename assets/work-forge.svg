@@ -37,7 +37,7 @@
   <rect class="scan" x="30" y="28" width="140" height="302" fill="#F59E0B"/>
 
   <text x="64" y="70" class="mono" font-size="16" font-weight="800" fill="#F59E0B">selected work</text>
-  <text x="64" y="104" class="sans" font-size="28" font-weight="850" fill="#F8FAFC">Projects forged from product problems</text>
+  <text x="64" y="104" class="sans" font-size="28" font-weight="850" fill="#FFF1B8">Projects forged from product problems</text>
   <text x="64" y="136" class="sans" font-size="17" font-weight="700" fill="#94A3B8">identity, proof pages and wallet-native experiments</text>
 
   <path class="rail" d="M78 270H1122" stroke="url(#rail)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>

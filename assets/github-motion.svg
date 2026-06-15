@@ -41,7 +41,7 @@
   <rect class="scan" x="30" y="28" width="130" height="224" fill="#F59E0B"/>
 
   <text x="64" y="68" class="mono" font-size="16" font-weight="800" fill="#F59E0B">github motion</text>
-  <text x="64" y="101" class="sans" font-size="24" font-weight="850" fill="#F8FAFC">Live profile signals without broken widgets</text>
+  <text x="64" y="101" class="sans" font-size="24" font-weight="850" fill="#FFF1B8">GitHub activity in motion</text>
   <text x="64" y="130" class="sans" font-size="16" font-weight="700" fill="#94A3B8">stats, streaks, languages and contribution flow</text>
 
   <g transform="translate(78 166)" filter="url(#glow)">
@@ -52,12 +52,19 @@
   </g>
 
   <g transform="translate(602 142)" filter="url(#glow)">
-    <ellipse class="orbit" cx="0" cy="0" rx="214" ry="72" stroke="url(#ring)" stroke-width="4"/>
-    <ellipse class="orbit" cx="0" cy="0" rx="146" ry="48" stroke="#FBBF24" stroke-width="2" opacity=".5" style="animation-duration:5.5s;animation-direction:reverse"/>
-    <circle r="54" fill="#0B1220" stroke="#334155" stroke-width="2"/>
-    <path class="flame" d="M0 46C-25 34-31 7-14-17C-5-30-1-45-3-62C22-43 36-21 30 8C44-7 50-27 49-40C72-12 71 27 54 43C42 55 20 59 0 46Z" fill="#FF6A00"/>
-    <path class="flame" d="M1 46C-13 35-14 14-4-1C4-13 8-27 7-39C25-23 33-4 26 16C39 8 43-5 45-17C57 9 49 36 1 46Z" fill="#FBBF24" style="animation-delay:.35s"/>
-    <path class="flame" d="M2 46C-8 34-5 18 5 8C13 0 15-10 15-20C29 0 30 25 2 46Z" fill="#FFFFFF" style="animation-delay:.7s"/>
+    <circle r="72" fill="#020617" stroke="#1E293B" stroke-width="8"/>
+    <circle r="58" fill="#0B1220" stroke="#334155" stroke-width="2"/>
+    <circle r="48" fill="#F97316" opacity=".18"/>
+    <circle r="34" fill="#111827" opacity=".94"/>
+    <path class="flame" d="M-42 24C-58 -4-44 -34-16 -42C-24 -20-14 -4 4 8C-16 8-30 14-42 24Z" fill="#F97316" opacity=".45" style="animation-delay:.1s"/>
+    <path class="flame" d="M42 22C58 -4 48 -30 20 -40C28 -18 16 -2 -2 8C18 10 32 16 42 22Z" fill="#FBBF24" opacity=".34" style="animation-delay:.35s"/>
+    <path d="M-38 48C-18 59 20 59 40 48" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+    <circle class="node" cx="-40" cy="36" r="4" fill="#F97316"/>
+    <circle class="node" cx="42" cy="-36" r="4" fill="#FBBF24" style="animation-delay:.45s"/>
+    <circle class="node" cx="48" cy="24" r="3.5" fill="#F97316" style="animation-delay:.9s"/>
+    <path class="flame" d="M0 42C-21 31-26 9-12-12C-5-24-1-37-3-50C18-34 30-15 25 8C36-5 42-20 41-31C61-6 60 25 45 39C34 50 16 53 0 42Z" fill="#FF6A00"/>
+    <path class="flame" d="M1 42C-11 32-12 15-4 2C3-8 7-20 6-30C21-17 28-1 22 15C33 8 36-3 38-12C48 10 41 33 1 42Z" fill="#FBBF24" style="animation-delay:.35s"/>
+    <path class="flame" d="M2 42C-7 32-4 19 5 10C11 3 13-6 13-14C25 3 25 25 2 42Z" fill="#FFFFFF" style="animation-delay:.7s"/>
   </g>
 
   <g filter="url(#glow)">

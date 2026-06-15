@@ -1,0 +1,51 @@
+<svg width="1100" height="210" viewBox="0 0 1100 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .mono{font:800 13px ui-monospace,SFMono-Regular,Menlo,monospace}
+    .title{font:900 34px system-ui,-apple-system,Segoe UI,sans-serif;fill:#FFE7A3;paint-order:stroke;stroke:#1F1206;stroke-width:1;filter:drop-shadow(0 2px 4px rgba(249,115,22,.22))}
+    .copy{font:700 15px system-ui,-apple-system,Segoe UI,sans-serif;fill:#BFDBFE}
+    .cardTitle{font:900 14px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#FBBF24}
+    .cardCopy{font:700 12px system-ui,-apple-system,Segoe UI,sans-serif;fill:#E5E7EB}
+    .muted{fill:#94A3B8}.gold{fill:#FBBF24}.cyan{fill:#38BDF8}.green{fill:#22C55E}.orange{fill:#F97316}
+    .seed{animation:seed 2.8s ease-in-out infinite}
+    .line{stroke-dasharray:9 13;animation:line 6s linear infinite}
+    .scan{animation:scan 5s linear infinite}
+    @keyframes seed{50%{transform:translateY(-5px);opacity:.65}}
+    @keyframes line{to{stroke-dashoffset:-120}}
+    @keyframes scan{to{transform:translateX(840px)}}
+  </style>
+  <rect width="1100" height="210" fill="#05070D"/>
+  <rect x="34" y="28" width="1032" height="154" rx="18" fill="#0B1220" stroke="#243244" stroke-width="2"/>
+  <rect class="scan" x="56" y="28" width="90" height="154" fill="#38BDF8" opacity=".05"/>
+
+  <text x="64" y="66" class="mono gold">next seeds</text>
+  <text x="64" y="106" class="title">Exploring next</text>
+  <text x="66" y="134" class="copy">things I want to turn into real, inspectable work</text>
+  <path class="line" d="M64 160H406" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+
+  <g transform="translate(454 52)">
+    <rect width="270" height="48" rx="14" fill="#0F172A" stroke="#334155"/>
+    <circle class="seed cyan" cx="238" cy="24" r="5"/>
+    <text x="18" y="22" class="cardTitle">Public projects</text>
+    <text x="18" y="39" class="cardCopy">polished demos and shipped ideas</text>
+  </g>
+  <g transform="translate(746 52)">
+    <rect width="270" height="48" rx="14" fill="#0F172A" stroke="#334155"/>
+    <circle class="seed gold" cx="238" cy="24" r="5" style="animation-delay:.35s"/>
+    <text x="18" y="22" class="cardTitle">Interactive systems</text>
+    <text x="18" y="39" class="cardCopy">game mechanics and product loops</text>
+  </g>
+  <g transform="translate(454 118)">
+    <rect width="270" height="48" rx="14" fill="#0F172A" stroke="#334155"/>
+    <circle class="seed green" cx="238" cy="24" r="5" style="animation-delay:.7s"/>
+    <text x="18" y="22" class="cardTitle">Docs and roadmaps</text>
+    <text x="18" y="39" class="cardCopy">clear issues, READMEs and demos</text>
+  </g>
+  <g transform="translate(746 118)">
+    <rect width="270" height="48" rx="14" fill="#0F172A" stroke="#334155"/>
+    <circle class="seed orange" cx="238" cy="24" r="5" style="animation-delay:1.05s"/>
+    <text x="18" y="22" class="cardTitle">Packages and chains</text>
+    <text x="18" y="39" class="cardCopy">tools, wallets and proof layers</text>
+  </g>
+
+  <text x="64" y="190" class="mono muted">not a roadmap promise, just the direction of curiosity</text>
+</svg>
