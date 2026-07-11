@@ -20,5 +20,5 @@
   <rect width="1200" height="190" fill="#05070D"/>
   <path class="wave" d="M-40 122C150 72 259 146 430 100C620 50 726 138 912 84C1068 39 1172 76 1240 54V190H-40V122Z" fill="#111827"/>
   <path class="wave2" d="M-40 138C160 84 268 158 440 116C626 70 742 154 916 102C1076 54 1172 94 1240 72V190H-40V138Z" fill="url(#fire)" opacity=".42" filter="url(#glow)"/>
-  <text x="600" y="74" text-anchor="middle" class="txt" font-size="22" font-weight="800" fill="#FBBF24">build clean, test honestly, ship the lesson</text>
+  <text x="600" y="74" text-anchor="middle" class="txt" font-size="22" font-weight="800" fill="#FBBF24">still building.</text>
 </svg>

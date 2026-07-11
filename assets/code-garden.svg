@@ -47,18 +47,18 @@
   <text x="72" y="184" class="mono muted">idea -> test -> docs -> release</text>
   <rect class="cursor" x="322" y="170" width="12" height="20" fill="#FBBF24"/>
 
-  <g transform="translate(570 204)" filter="url(#glow)">
+  <g transform="translate(570 220)" filter="url(#glow)">
     <path class="grow" d="M0 0C-18 -40 -14 -72 12 -102C34 -126 68 -130 96 -158" stroke="#22C55E" stroke-width="8" stroke-linecap="round"/>
     <path class="grow" d="M0 0C20 -42 18 -78 -4 -112C-20 -138 -54 -148 -84 -170" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" style="animation-delay:.2s"/>
     <path class="grow" d="M0 0C8 -52 44 -88 96 -98C142 -106 174 -84 212 -74" stroke="#FBBF24" stroke-width="5" stroke-linecap="round" style="animation-delay:.4s"/>
 
     <g class="leaf" style="animation-delay:.1s">
       <path d="M82 -158C58 -168 50 -192 72 -202C98 -190 104 -172 82 -158Z" fill="#22C55E"/>
-    <text x="58" y="-210" class="mono gold">docs</text>
+    <text x="104" y="-176" class="mono green">docs</text>
     </g>
     <g class="leaf" style="animation-delay:.5s">
       <path d="M-86 -170C-114 -168 -130 -190 -112 -208C-82 -208 -68 -190 -86 -170Z" fill="#38BDF8"/>
-    <text x="-130" y="-218" class="mono cyan">tests</text>
+    <text x="-166" y="-176" class="mono cyan">tests</text>
     </g>
     <g class="leaf" style="animation-delay:.9s">
       <path d="M214 -74C194 -52 204 -28 232 -34C246 -58 238 -76 214 -74Z" fill="#FBBF24"/>
