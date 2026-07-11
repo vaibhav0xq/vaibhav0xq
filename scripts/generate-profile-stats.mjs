@@ -180,8 +180,7 @@ function languageSvg(languages) {
 
   return svgShell(430, 190, `  <text x="24" y="31" class="title">Most Used Languages</text>
   ${bars}
-${items}
-  <text x="24" y="168" class="tiny">generated from public repositories</text>`);
+${items}`);
 }
 
 function wrapText(value, maxLength = 54) {
@@ -298,11 +297,10 @@ function streakSvg(stats) {
   const metrics = columns.map((item) => `  <text x="${item.x}" y="89" class="num" text-anchor="middle">${esc(item.value)}</text>
   <text x="${item.x}" y="119" class="label" text-anchor="middle">${esc(item.label)}</text>`).join('\n');
 
-  return svgShell(620, 170, `  <text x="24" y="31" class="title">Contribution Streak</text>
-  <line x1="207" y1="58" x2="207" y2="137" stroke="#304158"/>
-  <line x1="413" y1="58" x2="413" y2="137" stroke="#304158"/>
-${metrics}
-  <text x="310" y="151" class="tiny" text-anchor="middle">calculated from GitHub contribution calendars</text>`);
+  return svgShell(620, 145, `  <text x="24" y="31" class="title">Contribution Streak</text>
+  <line x1="207" y1="58" x2="207" y2="130" stroke="#304158"/>
+  <line x1="413" y1="58" x2="413" y2="130" stroke="#304158"/>
+${metrics}`);
 }
 
 function activitySvg(days) {

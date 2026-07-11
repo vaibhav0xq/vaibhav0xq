@@ -79,16 +79,16 @@ My work usually starts with a rough product idea, then moves into a small workin
 </p>
 
 <p align="center">
-  <img src="assets/generated/github-stats.svg" alt="Generated GitHub stats" width="49%" />
-  <img src="assets/generated/top-languages.svg" alt="Generated top languages" width="49%" />
+  <img src="assets/generated/github-stats.svg" alt="GitHub stats" width="49%" />
+  <img src="assets/generated/top-languages.svg" alt="Top languages" width="49%" />
 </p>
 
 <p align="center">
-  <img src="assets/generated/contribution-streak.svg" alt="Generated GitHub contribution streak" width="70%" />
+  <img src="assets/generated/contribution-streak.svg" alt="GitHub contribution streak" width="70%" />
 </p>
 
 <p align="center">
-  <img src="assets/generated/contribution-flow.svg" alt="Generated GitHub contribution flow" width="100%" />
+  <img src="assets/generated/contribution-flow.svg" alt="GitHub contribution flow" width="100%" />
 </p>
 
 <p align="center">

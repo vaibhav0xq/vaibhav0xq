@@ -1,4 +1,4 @@
-<svg width="620" height="170" viewBox="0 0 620 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="620" height="145" viewBox="0 0 620 145" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .label{font:700 13px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#D6E4F0}
     .muted{font:700 11px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#8BA3B5}
@@ -6,23 +6,22 @@
     .num{font:900 28px system-ui,-apple-system,Segoe UI,sans-serif;fill:#58A6FF}
     .tiny{font:800 10px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#F59E0B}
   </style>
-  <rect width="620" height="170" rx="14" fill="#0D1117"/>
-  <rect x="1" y="1" width="618" height="168" rx="13" stroke="#243247"/>
-  <rect x="0" y="0" width="620" height="170" rx="14" fill="url(#glow)" opacity=".55"/>
+  <rect width="620" height="145" rx="14" fill="#0D1117"/>
+  <rect x="1" y="1" width="618" height="143" rx="13" stroke="#243247"/>
+  <rect x="0" y="0" width="620" height="145" rx="14" fill="url(#glow)" opacity=".55"/>
   <defs>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(471.2 13.6) rotate(132) scale(496 153)">
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(471.2 11.6) rotate(132) scale(496 130.5)">
       <stop stop-color="#F97316" stop-opacity=".26"/>
       <stop offset=".36" stop-color="#0D1117" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <text x="24" y="31" class="title">Contribution Streak</text>
-  <line x1="207" y1="58" x2="207" y2="137" stroke="#304158"/>
-  <line x1="413" y1="58" x2="413" y2="137" stroke="#304158"/>
-  <text x="105" y="89" class="num" text-anchor="middle">220</text>
+  <line x1="207" y1="58" x2="207" y2="130" stroke="#304158"/>
+  <line x1="413" y1="58" x2="413" y2="130" stroke="#304158"/>
+  <text x="105" y="89" class="num" text-anchor="middle">221</text>
   <text x="105" y="119" class="label" text-anchor="middle">Total contributions</text>
   <text x="310" y="89" class="num" text-anchor="middle">1</text>
   <text x="310" y="119" class="label" text-anchor="middle">Current streak</text>
   <text x="515" y="89" class="num" text-anchor="middle">6</text>
   <text x="515" y="119" class="label" text-anchor="middle">Longest streak</text>
-  <text x="310" y="151" class="tiny" text-anchor="middle">calculated from GitHub contribution calendars</text>
 </svg>
