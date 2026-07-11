@@ -40,8 +40,11 @@ const graphQuery = `
         pageInfo { hasNextPage endCursor }
         nodes {
           name
+          description
+          url
           isFork
           stargazerCount
+          primaryLanguage { name color }
           languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
             edges { size node { name color } }
           }
@@ -181,6 +184,37 @@ ${items}
   <text x="24" y="168" class="tiny">generated from public repositories</text>`);
 }
 
+function wrapText(value, maxLength = 54) {
+  const words = String(value || 'Public software project').split(/\s+/);
+  const lines = [];
+  let line = '';
+  for (const word of words) {
+    const next = line ? `${line} ${word}` : word;
+    if (next.length > maxLength && line) {
+      lines.push(line);
+      line = word;
+    } else {
+      line = next;
+    }
+  }
+  if (line) lines.push(line);
+  return lines.slice(0, 2);
+}
+
+function repositorySvg(repo, displayName) {
+  const description = wrapText(repo.description);
+  const descriptionMarkup = description.map((line, index) => `  <text x="24" y="${66 + index * 18}" class="muted">${esc(line)}</text>`).join('\n');
+  const language = repo.primaryLanguage?.name || 'Repository';
+  const color = repo.primaryLanguage?.color || '#58A6FF';
+
+  return svgShell(430, 145, `  <rect x="0" y="0" width="6" height="145" rx="3" fill="#F59E0B"/>
+  <text x="24" y="34" class="title">${esc(displayName)}</text>
+  <text x="406" y="33" class="tiny" text-anchor="end">OPEN REPOSITORY</text>
+${descriptionMarkup}
+  <circle cx="29" cy="119" r="5" fill="${esc(color)}"/>
+  <text x="42" y="123" class="label">${esc(language)}</text>
+  <text x="406" y="123" class="label" text-anchor="end">${esc(compact(repo.stargazerCount))} stars</text>`);
+}
 function mergeLanguages(repos) {
   const totals = new Map();
   for (const repo of repos) {
@@ -337,12 +371,21 @@ async function main() {
   };
 
   const languages = mergeLanguages(repos);
+  const featured = [
+    { name: 'arc-identity-public', title: 'Arc Identity', file: 'featured-arc-identity.svg' },
+    { name: 'vyom', title: 'Vyom', file: 'featured-vyom.svg' },
+    { name: 'receipts-network', title: 'Receipts Network', file: 'featured-receipts-network.svg' }
+  ].map((item) => ({ ...item, repo: repos.find((repo) => repo.name === item.name) }))
+    .filter((item) => item.repo);
   await import('node:fs/promises').then(async (fs) => {
     await fs.mkdir('assets/generated', { recursive: true });
     await fs.writeFile('assets/generated/github-stats.svg', statsSvg(stats));
     await fs.writeFile('assets/generated/top-languages.svg', languageSvg(languages));
     await fs.writeFile('assets/generated/contribution-streak.svg', streakSvg(stats));
     await fs.writeFile('assets/generated/contribution-flow.svg', activitySvg(contributionHistory.days));
+    for (const item of featured) {
+      await fs.writeFile(`assets/generated/${item.file}`, repositorySvg(item.repo, item.title));
+    }
   });
 
   console.log(`Generated profile stats for ${login}`);

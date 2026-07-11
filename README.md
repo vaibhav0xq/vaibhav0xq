@@ -59,6 +59,14 @@ My work usually starts with a rough product idea, then moves into a small workin
 </p>
 
 <p align="center">
+  <a href="https://github.com/vaibhav0xq/arc-identity-public"><img src="assets/generated/featured-arc-identity.svg" alt="Arc Identity featured repository" width="49%" /></a>
+  <a href="https://github.com/vaibhav0xq/vyom"><img src="assets/generated/featured-vyom.svg" alt="Vyom featured repository" width="49%" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/vaibhav0xq/receipts-network"><img src="assets/generated/featured-receipts-network.svg" alt="Receipts Network featured repository" width="49%" /></a>
+</p>
+
+<p align="center">
   <img src="assets/flame-divider.svg" alt="" width="100%" />
 </p>
 
