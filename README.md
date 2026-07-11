@@ -59,12 +59,6 @@ My work usually starts with a rough product idea, then moves into a small workin
 </p>
 
 <p align="center">
-  <a href="https://github.com/vaibhav0xq/arc-identity-public">Arc Identity</a> |
-  <a href="https://github.com/vaibhav0xq/vyom">Vyom</a> |
-  <a href="https://github.com/vaibhav0xq/receipts-network">Receipts Network</a>
-</p>
-
-<p align="center">
   <img src="assets/flame-divider.svg" alt="" width="100%" />
 </p>
 
