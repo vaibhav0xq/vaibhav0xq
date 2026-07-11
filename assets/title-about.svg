@@ -9,10 +9,6 @@
   </style>
   <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
   <defs><linearGradient id="titleGrad" x1="32" y1="30" x2="150" y2="64"><stop stop-color="#FFF7D6"/><stop offset=".45" stop-color="#FBBF24"/><stop offset="1" stop-color="#F97316"/></linearGradient></defs>
-  <path class="line" d="M300 64C430 44 530 68 654 48S860 30 1056 54" stroke="#F59E0B" stroke-width="2" opacity=".8"/>
-  <text x="32" y="55" class="title">About</text>
+<text x="32" y="55" class="title">About</text>
   <text x="160" y="55" class="tag">who I am building as</text>
-  <circle class="spark" cx="704" cy="34" r="4" fill="#FBBF24"/>
-  <circle class="spark" cx="780" cy="62" r="3" fill="#F97316" style="animation-delay:.5s"/>
-  <circle class="spark" cx="860" cy="42" r="2.5" fill="#38BDF8" style="animation-delay:1s"/>
 </svg>

@@ -9,10 +9,8 @@
   </style>
   <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
   <defs><linearGradient id="titleGrad" x1="32" y1="30" x2="150" y2="64"><stop stop-color="#FFF7D6"/><stop offset=".45" stop-color="#FBBF24"/><stop offset="1" stop-color="#F97316"/></linearGradient></defs>
-  <path class="line" d="M320 58C430 36 520 56 626 52S808 66 1058 34" stroke="#38BDF8" stroke-width="2.5" opacity=".9"/>
-  <path class="line" d="M320 68C454 48 540 64 646 60S824 68 1058 44" stroke="#F59E0B" stroke-width="2" opacity=".75"/>
   <text x="32" y="55" class="title">Focus</text>
   <text x="148" y="55" class="tag">what I am exploring</text>
   <path class="ember" d="M990 55C979 45 987 34 996 25C998 36 1012 40 1010 54C1008 68 990 70 990 55Z" fill="#F97316"/>
-  <path d="M996 61C990 54 996 46 1001 39C1004 48 1012 52 1007 62C1004 68 997 69 996 61Z" fill="#FEF3C7"/>
+  <path class="ember" d="M996 61C990 54 996 46 1001 39C1004 48 1012 52 1007 62C1004 68 997 69 996 61Z" fill="#FEF3C7" style="animation-delay:.25s"/>
 </svg>

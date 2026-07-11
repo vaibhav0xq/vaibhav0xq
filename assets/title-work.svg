@@ -9,10 +9,6 @@
   </style>
   <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
   <defs><linearGradient id="titleGrad" x1="32" y1="30" x2="150" y2="64"><stop stop-color="#FFF7D6"/><stop offset=".45" stop-color="#FBBF24"/><stop offset="1" stop-color="#F97316"/></linearGradient></defs>
-  <path class="map" d="M282 64C390 44 484 70 596 42S806 58 1058 26" stroke="#F59E0B" stroke-width="2.5"/>
-  <text x="32" y="55" class="title">Work</text>
+<text x="32" y="55" class="title">Work</text>
   <text x="132" y="55" class="tag">projects and proof</text>
-  <circle class="coin" cx="740" cy="33" r="4" fill="#FBBF24"/>
-  <circle class="coin" cx="808" cy="62" r="3" fill="#F97316" style="animation-delay:.6s"/>
-  <circle class="coin" cx="906" cy="38" r="3" fill="#38BDF8" style="animation-delay:1.2s"/>
 </svg>

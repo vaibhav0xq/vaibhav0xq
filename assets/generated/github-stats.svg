@@ -1,0 +1,38 @@
+<svg width="430" height="190" viewBox="0 0 430 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .label{font:700 13px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#D6E4F0}
+    .muted{font:700 11px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#8BA3B5}
+    .title{font:800 18px system-ui,-apple-system,Segoe UI,sans-serif;fill:#FBBF24}
+    .num{font:900 28px system-ui,-apple-system,Segoe UI,sans-serif;fill:#58A6FF}
+    .tiny{font:800 10px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#F59E0B}
+  </style>
+  <rect width="430" height="190" rx="14" fill="#0D1117"/>
+  <rect x="1" y="1" width="428" height="188" rx="13" stroke="#243247"/>
+  <rect x="0" y="0" width="430" height="190" rx="14" fill="url(#glow)" opacity=".55"/>
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(326.8 15.200000000000001) rotate(132) scale(344 171)">
+      <stop stop-color="#F97316" stop-opacity=".26"/>
+      <stop offset=".36" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <text x="24" y="31" class="title">Vaibhav's GitHub Stats</text>
+  <text x="26" y="56" class="label">Total stars</text>
+  <text x="252" y="56" class="label" text-anchor="end">7</text>
+  <text x="26" y="76" class="label">Total contributions</text>
+  <text x="252" y="76" class="label" text-anchor="end">218</text>
+  <text x="26" y="96" class="label">Commits last year</text>
+  <text x="252" y="96" class="label" text-anchor="end">83</text>
+  <text x="26" y="116" class="label">Pull requests</text>
+  <text x="252" y="116" class="label" text-anchor="end">5</text>
+  <text x="26" y="136" class="label">Issues</text>
+  <text x="252" y="136" class="label" text-anchor="end">3</text>
+  <text x="26" y="156" class="label">Repos contributed to</text>
+  <text x="252" y="156" class="label" text-anchor="end">6</text>
+  <circle cx="360" cy="106" r="40" stroke="#243247" stroke-width="8"/>
+  <circle cx="360" cy="106" r="40" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" stroke-dasharray="185 260" transform="rotate(-90 360 106)"/>
+  <text x="360" y="103" class="num" text-anchor="middle">217</text>
+  <text x="360" y="124" class="tiny" text-anchor="middle">last year</text>
+  <circle cx="24" cy="168" r="4" fill="#38BDF8" opacity=".9"/>
+  <circle cx="46" cy="168" r="4" fill="#FBBF24" opacity=".9"/>
+  <circle cx="68" cy="168" r="4" fill="#F97316" opacity=".9"/>
+</svg>

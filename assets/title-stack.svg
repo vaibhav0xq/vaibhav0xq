@@ -9,10 +9,6 @@
   </style>
   <rect x="0" y="10" width="1100" height="70" rx="14" fill="#0D1117"/>
   <defs><linearGradient id="titleGrad" x1="32" y1="30" x2="150" y2="64"><stop stop-color="#FFF7D6"/><stop offset=".45" stop-color="#FBBF24"/><stop offset="1" stop-color="#F97316"/></linearGradient></defs>
-  <path class="trace" d="M306 34H512L548 64H830L870 38H1064" stroke="#F59E0B" stroke-width="2.5"/>
-  <text x="32" y="55" class="title">Stack</text>
+<text x="32" y="55" class="title">Stack</text>
   <text x="142" y="55" class="tag">tools I reach for</text>
-  <circle class="node" cx="304" cy="34" r="5" fill="#38BDF8"/>
-  <circle class="node" cx="548" cy="64" r="5" fill="#FBBF24" style="animation-delay:.5s"/>
-  <circle class="node" cx="870" cy="38" r="5" fill="#F97316" style="animation-delay:1s"/>
 </svg>

@@ -1,0 +1,35 @@
+<svg width="430" height="190" viewBox="0 0 430 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .label{font:700 13px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#D6E4F0}
+    .muted{font:700 11px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#8BA3B5}
+    .title{font:800 18px system-ui,-apple-system,Segoe UI,sans-serif;fill:#FBBF24}
+    .num{font:900 28px system-ui,-apple-system,Segoe UI,sans-serif;fill:#58A6FF}
+    .tiny{font:800 10px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#F59E0B}
+  </style>
+  <rect width="430" height="190" rx="14" fill="#0D1117"/>
+  <rect x="1" y="1" width="428" height="188" rx="13" stroke="#243247"/>
+  <rect x="0" y="0" width="430" height="190" rx="14" fill="url(#glow)" opacity=".55"/>
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(326.8 15.200000000000001) rotate(132) scale(344 171)">
+      <stop stop-color="#F97316" stop-opacity=".26"/>
+      <stop offset=".36" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <text x="24" y="31" class="title">Most Used Languages</text>
+  <rect x="24" y="55" width="244" height="10" rx="5" fill="#3178c6"/>
+  <rect x="268" y="55" width="65" height="10" rx="5" fill="#f1e05a"/>
+  <rect x="333" y="55" width="18" height="10" rx="5" fill="#663399"/>
+  <rect x="351" y="55" width="8" height="10" rx="5" fill="#e34c26"/>
+  <rect x="359" y="55" width="8" height="10" rx="5" fill="#4a137a"/>
+  <circle cx="28" cy="88" r="5" fill="#3178c6"/>
+  <text x="42" y="92" class="muted">TypeScript 74.0%</text>
+  <circle cx="208" cy="88" r="5" fill="#f1e05a"/>
+  <text x="222" y="92" class="muted">JavaScript 19.6%</text>
+  <circle cx="28" cy="112" r="5" fill="#663399"/>
+  <text x="42" y="116" class="muted">CSS 5.39%</text>
+  <circle cx="208" cy="112" r="5" fill="#e34c26"/>
+  <text x="222" y="116" class="muted">HTML 0.89%</text>
+  <circle cx="28" cy="136" r="5" fill="#4a137a"/>
+  <text x="42" y="140" class="muted">Move 0.09%</text>
+  <text x="24" y="168" class="tiny">generated from public repositories</text>
+</svg>
