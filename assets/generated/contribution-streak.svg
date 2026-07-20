@@ -20,7 +20,7 @@
   <line x1="413" y1="58" x2="413" y2="130" stroke="#304158"/>
   <text x="105" y="89" class="num" text-anchor="middle">236</text>
   <text x="105" y="119" class="label" text-anchor="middle">Total contributions</text>
-  <text x="310" y="89" class="num" text-anchor="middle">2</text>
+  <text x="310" y="89" class="num" text-anchor="middle">0</text>
   <text x="310" y="119" class="label" text-anchor="middle">Current streak</text>
   <text x="515" y="89" class="num" text-anchor="middle">6</text>
   <text x="515" y="119" class="label" text-anchor="middle">Longest streak</text>
