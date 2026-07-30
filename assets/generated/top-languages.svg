@@ -24,11 +24,11 @@
   <circle cx="28" cy="88" r="5" fill="#3178c6"/>
   <text x="42" y="92" class="muted">TypeScript 69.1%</text>
   <circle cx="208" cy="88" r="5" fill="#f1e05a"/>
-  <text x="222" y="92" class="muted">JavaScript 16.7%</text>
+  <text x="222" y="92" class="muted">JavaScript 16.8%</text>
   <circle cx="28" cy="112" r="5" fill="#663399"/>
   <text x="42" y="116" class="muted">CSS 12.1%</text>
   <circle cx="208" cy="112" r="5" fill="#AA6746"/>
-  <text x="222" y="116" class="muted">Solidity 1.37%</text>
+  <text x="222" y="116" class="muted">Solidity 1.36%</text>
   <circle cx="28" cy="136" r="5" fill="#e34c26"/>
   <text x="42" y="140" class="muted">HTML 0.62%</text>
   <circle cx="208" cy="136" r="5" fill="#4a137a"/>
