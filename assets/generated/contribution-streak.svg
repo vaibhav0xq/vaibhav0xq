@@ -18,9 +18,9 @@
   <text x="24" y="31" class="title">Contribution Streak</text>
   <line x1="207" y1="58" x2="207" y2="130" stroke="#304158"/>
   <line x1="413" y1="58" x2="413" y2="130" stroke="#304158"/>
-  <text x="105" y="89" class="num" text-anchor="middle">257</text>
+  <text x="105" y="89" class="num" text-anchor="middle">258</text>
   <text x="105" y="119" class="label" text-anchor="middle">Total contributions</text>
-  <text x="310" y="89" class="num" text-anchor="middle">2</text>
+  <text x="310" y="89" class="num" text-anchor="middle">3</text>
   <text x="310" y="119" class="label" text-anchor="middle">Current streak</text>
   <text x="515" y="89" class="num" text-anchor="middle">6</text>
   <text x="515" y="119" class="label" text-anchor="middle">Longest streak</text>
