@@ -16,21 +16,21 @@
     </radialGradient>
   </defs>
   <text x="24" y="31" class="title">Most Used Languages</text>
-  <rect x="24" y="55" width="242" height="10" rx="5" fill="#3178c6"/>
-  <rect x="266" y="55" width="54" height="10" rx="5" fill="#663399"/>
-  <rect x="320" y="55" width="14" height="10" rx="5" fill="#fcb32c"/>
-  <rect x="334" y="55" width="13" height="10" rx="5" fill="#f1e05a"/>
-  <rect x="347" y="55" width="8" height="10" rx="5" fill="#AA6746"/>
+  <rect x="24" y="55" width="258" height="10" rx="5" fill="#3178c6"/>
+  <rect x="282" y="55" width="42" height="10" rx="5" fill="#663399"/>
+  <rect x="324" y="55" width="14" height="10" rx="5" fill="#f1e05a"/>
+  <rect x="338" y="55" width="10" height="10" rx="5" fill="#fcb32c"/>
+  <rect x="348" y="55" width="8" height="10" rx="5" fill="#AA6746"/>
   <circle cx="28" cy="88" r="5" fill="#3178c6"/>
-  <text x="42" y="92" class="muted">TypeScript 73.4%</text>
+  <text x="42" y="92" class="muted">TypeScript 78.1%</text>
   <circle cx="208" cy="88" r="5" fill="#663399"/>
-  <text x="222" y="92" class="muted">CSS 16.4%</text>
-  <circle cx="28" cy="112" r="5" fill="#fcb32c"/>
-  <text x="42" y="116" class="muted">MDX 4.11%</text>
-  <circle cx="208" cy="112" r="5" fill="#f1e05a"/>
-  <text x="222" y="116" class="muted">JavaScript 3.98%</text>
+  <text x="222" y="92" class="muted">CSS 12.8%</text>
+  <circle cx="28" cy="112" r="5" fill="#f1e05a"/>
+  <text x="42" y="116" class="muted">JavaScript 4.19%</text>
+  <circle cx="208" cy="112" r="5" fill="#fcb32c"/>
+  <text x="222" y="116" class="muted">MDX 3.17%</text>
   <circle cx="28" cy="136" r="5" fill="#AA6746"/>
-  <text x="42" y="140" class="muted">Solidity 1.35%</text>
+  <text x="42" y="140" class="muted">Solidity 1.04%</text>
   <circle cx="208" cy="136" r="5" fill="#e34c26"/>
-  <text x="222" y="140" class="muted">HTML 0.62%</text>
+  <text x="222" y="140" class="muted">HTML 0.55%</text>
 </svg>
