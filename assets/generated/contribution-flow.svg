@@ -16,39 +16,39 @@
     </radialGradient>
   </defs>
   <text x="24" y="31" class="title">Contribution Flow</text>
-  <text x="836" y="31" class="tiny" text-anchor="end">219 contributions / 42 days</text>
+  <text x="836" y="31" class="tiny" text-anchor="end">216 contributions / 42 days</text>
   <line x1="54" y1="176" x2="806" y2="176" stroke="#304158"/>
   <line x1="54" y1="120" x2="806" y2="120" stroke="#243247" stroke-dasharray="4 8"/>
-  <path d="M 54.0 156.0 L 72.3 168.0 L 90.7 176.0 L 109.0 176.0 L 127.4 160.0 L 145.7 176.0 L 164.0 176.0 L 182.4 176.0 L 200.7 176.0 L 219.1 176.0 L 237.4 176.0 L 255.8 172.0 L 274.1 120.0 L 292.4 124.0 L 310.8 168.0 L 329.1 176.0 L 347.5 176.0 L 365.8 168.0 L 384.1 176.0 L 402.5 120.0 L 420.8 64.0 L 439.2 136.0 L 457.5 156.0 L 475.9 124.0 L 494.2 148.0 L 512.5 136.0 L 530.9 100.0 L 549.2 132.0 L 567.6 160.0 L 585.9 172.0 L 604.2 160.0 L 622.6 156.0 L 640.9 172.0 L 659.3 176.0 L 677.6 176.0 L 696.0 176.0 L 714.3 148.0 L 732.6 148.0 L 751.0 172.0 L 769.3 92.0 L 787.7 160.0 L 806.0 160.0 L 806.0 176.0 L 54 176.0 Z" fill="#F97316" opacity=".12"/>
-  <path d="M 54.0 156.0 L 72.3 168.0 L 90.7 176.0 L 109.0 176.0 L 127.4 160.0 L 145.7 176.0 L 164.0 176.0 L 182.4 176.0 L 200.7 176.0 L 219.1 176.0 L 237.4 176.0 L 255.8 172.0 L 274.1 120.0 L 292.4 124.0 L 310.8 168.0 L 329.1 176.0 L 347.5 176.0 L 365.8 168.0 L 384.1 176.0 L 402.5 120.0 L 420.8 64.0 L 439.2 136.0 L 457.5 156.0 L 475.9 124.0 L 494.2 148.0 L 512.5 136.0 L 530.9 100.0 L 549.2 132.0 L 567.6 160.0 L 585.9 172.0 L 604.2 160.0 L 622.6 156.0 L 640.9 172.0 L 659.3 176.0 L 677.6 176.0 L 696.0 176.0 L 714.3 148.0 L 732.6 148.0 L 751.0 172.0 L 769.3 92.0 L 787.7 160.0 L 806.0 160.0" stroke="#F59E0B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="54.0" cy="156.0" r="3" fill="#FBBF24"/>
-  <circle cx="72.3" cy="168.0" r="3" fill="#FBBF24"/>
-  <circle cx="127.4" cy="160.0" r="3" fill="#FBBF24"/>
-  <circle cx="255.8" cy="172.0" r="3" fill="#FBBF24"/>
-  <circle cx="274.1" cy="120.0" r="3" fill="#FBBF24"/>
-  <circle cx="292.4" cy="124.0" r="3" fill="#FBBF24"/>
-  <circle cx="310.8" cy="168.0" r="3" fill="#FBBF24"/>
-  <circle cx="365.8" cy="168.0" r="3" fill="#FBBF24"/>
-  <circle cx="402.5" cy="120.0" r="3" fill="#FBBF24"/>
-  <circle cx="420.8" cy="64.0" r="3" fill="#FBBF24"/>
-  <circle cx="439.2" cy="136.0" r="3" fill="#FBBF24"/>
-  <circle cx="457.5" cy="156.0" r="3" fill="#FBBF24"/>
-  <circle cx="475.9" cy="124.0" r="3" fill="#FBBF24"/>
-  <circle cx="494.2" cy="148.0" r="3" fill="#FBBF24"/>
-  <circle cx="512.5" cy="136.0" r="3" fill="#FBBF24"/>
-  <circle cx="530.9" cy="100.0" r="3" fill="#FBBF24"/>
-  <circle cx="549.2" cy="132.0" r="3" fill="#FBBF24"/>
-  <circle cx="567.6" cy="160.0" r="3" fill="#FBBF24"/>
-  <circle cx="585.9" cy="172.0" r="3" fill="#FBBF24"/>
-  <circle cx="604.2" cy="160.0" r="3" fill="#FBBF24"/>
-  <circle cx="622.6" cy="156.0" r="3" fill="#FBBF24"/>
-  <circle cx="640.9" cy="172.0" r="3" fill="#FBBF24"/>
+  <path d="M 54.0 168.0 L 72.3 176.0 L 90.7 176.0 L 109.0 160.0 L 127.4 176.0 L 145.7 176.0 L 164.0 176.0 L 182.4 176.0 L 200.7 176.0 L 219.1 176.0 L 237.4 172.0 L 255.8 120.0 L 274.1 124.0 L 292.4 168.0 L 310.8 176.0 L 329.1 176.0 L 347.5 168.0 L 365.8 176.0 L 384.1 120.0 L 402.5 64.0 L 420.8 136.0 L 439.2 156.0 L 457.5 124.0 L 475.9 148.0 L 494.2 136.0 L 512.5 100.0 L 530.9 132.0 L 549.2 160.0 L 567.6 172.0 L 585.9 160.0 L 604.2 156.0 L 622.6 172.0 L 640.9 176.0 L 659.3 176.0 L 677.6 176.0 L 696.0 148.0 L 714.3 148.0 L 732.6 172.0 L 751.0 92.0 L 769.3 160.0 L 787.7 160.0 L 806.0 168.0 L 806.0 176.0 L 54 176.0 Z" fill="#F97316" opacity=".12"/>
+  <path d="M 54.0 168.0 L 72.3 176.0 L 90.7 176.0 L 109.0 160.0 L 127.4 176.0 L 145.7 176.0 L 164.0 176.0 L 182.4 176.0 L 200.7 176.0 L 219.1 176.0 L 237.4 172.0 L 255.8 120.0 L 274.1 124.0 L 292.4 168.0 L 310.8 176.0 L 329.1 176.0 L 347.5 168.0 L 365.8 176.0 L 384.1 120.0 L 402.5 64.0 L 420.8 136.0 L 439.2 156.0 L 457.5 124.0 L 475.9 148.0 L 494.2 136.0 L 512.5 100.0 L 530.9 132.0 L 549.2 160.0 L 567.6 172.0 L 585.9 160.0 L 604.2 156.0 L 622.6 172.0 L 640.9 176.0 L 659.3 176.0 L 677.6 176.0 L 696.0 148.0 L 714.3 148.0 L 732.6 172.0 L 751.0 92.0 L 769.3 160.0 L 787.7 160.0 L 806.0 168.0" stroke="#F59E0B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="54.0" cy="168.0" r="3" fill="#FBBF24"/>
+  <circle cx="109.0" cy="160.0" r="3" fill="#FBBF24"/>
+  <circle cx="237.4" cy="172.0" r="3" fill="#FBBF24"/>
+  <circle cx="255.8" cy="120.0" r="3" fill="#FBBF24"/>
+  <circle cx="274.1" cy="124.0" r="3" fill="#FBBF24"/>
+  <circle cx="292.4" cy="168.0" r="3" fill="#FBBF24"/>
+  <circle cx="347.5" cy="168.0" r="3" fill="#FBBF24"/>
+  <circle cx="384.1" cy="120.0" r="3" fill="#FBBF24"/>
+  <circle cx="402.5" cy="64.0" r="3" fill="#FBBF24"/>
+  <circle cx="420.8" cy="136.0" r="3" fill="#FBBF24"/>
+  <circle cx="439.2" cy="156.0" r="3" fill="#FBBF24"/>
+  <circle cx="457.5" cy="124.0" r="3" fill="#FBBF24"/>
+  <circle cx="475.9" cy="148.0" r="3" fill="#FBBF24"/>
+  <circle cx="494.2" cy="136.0" r="3" fill="#FBBF24"/>
+  <circle cx="512.5" cy="100.0" r="3" fill="#FBBF24"/>
+  <circle cx="530.9" cy="132.0" r="3" fill="#FBBF24"/>
+  <circle cx="549.2" cy="160.0" r="3" fill="#FBBF24"/>
+  <circle cx="567.6" cy="172.0" r="3" fill="#FBBF24"/>
+  <circle cx="585.9" cy="160.0" r="3" fill="#FBBF24"/>
+  <circle cx="604.2" cy="156.0" r="3" fill="#FBBF24"/>
+  <circle cx="622.6" cy="172.0" r="3" fill="#FBBF24"/>
+  <circle cx="696.0" cy="148.0" r="3" fill="#FBBF24"/>
   <circle cx="714.3" cy="148.0" r="3" fill="#FBBF24"/>
-  <circle cx="732.6" cy="148.0" r="3" fill="#FBBF24"/>
-  <circle cx="751.0" cy="172.0" r="3" fill="#FBBF24"/>
-  <circle cx="769.3" cy="92.0" r="3" fill="#FBBF24"/>
+  <circle cx="732.6" cy="172.0" r="3" fill="#FBBF24"/>
+  <circle cx="751.0" cy="92.0" r="3" fill="#FBBF24"/>
+  <circle cx="769.3" cy="160.0" r="3" fill="#FBBF24"/>
   <circle cx="787.7" cy="160.0" r="3" fill="#FBBF24"/>
-  <circle cx="806.0" cy="160.0" r="3" fill="#FBBF24"/>
-  <text x="54" y="202" class="muted">2026-07-17</text>
-  <text x="806" y="202" class="muted" text-anchor="end">2026-08-27</text>
+  <circle cx="806.0" cy="168.0" r="3" fill="#FBBF24"/>
+  <text x="54" y="202" class="muted">2026-07-18</text>
+  <text x="806" y="202" class="muted" text-anchor="end">2026-08-28</text>
 </svg>
