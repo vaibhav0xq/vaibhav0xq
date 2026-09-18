@@ -26,7 +26,7 @@
   <circle cx="208" cy="88" r="5" fill="#663399"/>
   <text x="222" y="92" class="muted">CSS 7.06%</text>
   <circle cx="28" cy="112" r="5" fill="#f1e05a"/>
-  <text x="42" y="116" class="muted">JavaScript 2.99%</text>
+  <text x="42" y="116" class="muted">JavaScript 3.02%</text>
   <circle cx="208" cy="112" r="5" fill="#AA6746"/>
   <text x="222" y="116" class="muted">Solidity 2.53%</text>
   <circle cx="28" cy="136" r="5" fill="#fcb32c"/>
