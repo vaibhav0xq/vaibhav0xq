@@ -22,7 +22,7 @@
   <rect x="338" y="55" width="8" height="10" rx="5" fill="#AA6746"/>
   <rect x="346" y="55" width="8" height="10" rx="5" fill="#fcb32c"/>
   <circle cx="28" cy="88" r="5" fill="#3178c6"/>
-  <text x="42" y="92" class="muted">TypeScript 85.1%</text>
+  <text x="42" y="92" class="muted">TypeScript 85.0%</text>
   <circle cx="208" cy="88" r="5" fill="#663399"/>
   <text x="222" y="92" class="muted">CSS 7.06%</text>
   <circle cx="28" cy="112" r="5" fill="#f1e05a"/>
@@ -30,7 +30,7 @@
   <circle cx="208" cy="112" r="5" fill="#AA6746"/>
   <text x="222" y="116" class="muted">Solidity 2.53%</text>
   <circle cx="28" cy="136" r="5" fill="#fcb32c"/>
-  <text x="42" y="140" class="muted">MDX 1.80%</text>
+  <text x="42" y="140" class="muted">MDX 1.85%</text>
   <circle cx="208" cy="136" r="5" fill="#e34c26"/>
   <text x="222" y="140" class="muted">HTML 0.48%</text>
 </svg>
