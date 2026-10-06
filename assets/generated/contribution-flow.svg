@@ -16,38 +16,37 @@
     </radialGradient>
   </defs>
   <text x="24" y="31" class="title">Contribution Flow</text>
-  <text x="836" y="31" class="tiny" text-anchor="end">317 contributions / 42 days</text>
+  <text x="836" y="31" class="tiny" text-anchor="end">296 contributions / 42 days</text>
   <line x1="54" y1="176" x2="806" y2="176" stroke="#304158"/>
   <line x1="54" y1="120" x2="806" y2="120" stroke="#243247" stroke-dasharray="4 8"/>
-  <path d="M 54.0 110.7 L 72.3 163.6 L 90.7 163.6 L 109.0 157.3 L 127.4 166.7 L 145.7 176.0 L 164.0 172.9 L 182.4 169.8 L 200.7 176.0 L 219.1 176.0 L 237.4 176.0 L 255.8 144.9 L 274.1 148.0 L 292.4 151.1 L 310.8 166.7 L 329.1 157.3 L 347.5 135.6 L 365.8 151.1 L 384.1 129.3 L 402.5 85.8 L 420.8 64.0 L 439.2 104.4 L 457.5 166.7 L 475.9 138.7 L 494.2 92.0 L 512.5 126.2 L 530.9 123.1 L 549.2 120.0 L 567.6 151.1 L 585.9 138.7 L 604.2 176.0 L 622.6 176.0 L 640.9 176.0 L 659.3 166.7 L 677.6 176.0 L 696.0 176.0 L 714.3 176.0 L 732.6 176.0 L 751.0 176.0 L 769.3 176.0 L 787.7 176.0 L 806.0 176.0 L 806.0 176.0 L 54 176.0 Z" fill="#F97316" opacity=".12"/>
-  <path d="M 54.0 110.7 L 72.3 163.6 L 90.7 163.6 L 109.0 157.3 L 127.4 166.7 L 145.7 176.0 L 164.0 172.9 L 182.4 169.8 L 200.7 176.0 L 219.1 176.0 L 237.4 176.0 L 255.8 144.9 L 274.1 148.0 L 292.4 151.1 L 310.8 166.7 L 329.1 157.3 L 347.5 135.6 L 365.8 151.1 L 384.1 129.3 L 402.5 85.8 L 420.8 64.0 L 439.2 104.4 L 457.5 166.7 L 475.9 138.7 L 494.2 92.0 L 512.5 126.2 L 530.9 123.1 L 549.2 120.0 L 567.6 151.1 L 585.9 138.7 L 604.2 176.0 L 622.6 176.0 L 640.9 176.0 L 659.3 166.7 L 677.6 176.0 L 696.0 176.0 L 714.3 176.0 L 732.6 176.0 L 751.0 176.0 L 769.3 176.0 L 787.7 176.0 L 806.0 176.0" stroke="#F59E0B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="54.0" cy="110.7" r="3" fill="#FBBF24"/>
+  <path d="M 54.0 163.6 L 72.3 163.6 L 90.7 157.3 L 109.0 166.7 L 127.4 176.0 L 145.7 172.9 L 164.0 169.8 L 182.4 176.0 L 200.7 176.0 L 219.1 176.0 L 237.4 144.9 L 255.8 148.0 L 274.1 151.1 L 292.4 166.7 L 310.8 157.3 L 329.1 135.6 L 347.5 151.1 L 365.8 129.3 L 384.1 85.8 L 402.5 64.0 L 420.8 104.4 L 439.2 166.7 L 457.5 138.7 L 475.9 92.0 L 494.2 126.2 L 512.5 123.1 L 530.9 120.0 L 549.2 151.1 L 567.6 138.7 L 585.9 176.0 L 604.2 176.0 L 622.6 176.0 L 640.9 166.7 L 659.3 176.0 L 677.6 176.0 L 696.0 176.0 L 714.3 176.0 L 732.6 176.0 L 751.0 176.0 L 769.3 176.0 L 787.7 176.0 L 806.0 176.0 L 806.0 176.0 L 54 176.0 Z" fill="#F97316" opacity=".12"/>
+  <path d="M 54.0 163.6 L 72.3 163.6 L 90.7 157.3 L 109.0 166.7 L 127.4 176.0 L 145.7 172.9 L 164.0 169.8 L 182.4 176.0 L 200.7 176.0 L 219.1 176.0 L 237.4 144.9 L 255.8 148.0 L 274.1 151.1 L 292.4 166.7 L 310.8 157.3 L 329.1 135.6 L 347.5 151.1 L 365.8 129.3 L 384.1 85.8 L 402.5 64.0 L 420.8 104.4 L 439.2 166.7 L 457.5 138.7 L 475.9 92.0 L 494.2 126.2 L 512.5 123.1 L 530.9 120.0 L 549.2 151.1 L 567.6 138.7 L 585.9 176.0 L 604.2 176.0 L 622.6 176.0 L 640.9 166.7 L 659.3 176.0 L 677.6 176.0 L 696.0 176.0 L 714.3 176.0 L 732.6 176.0 L 751.0 176.0 L 769.3 176.0 L 787.7 176.0 L 806.0 176.0" stroke="#F59E0B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="54.0" cy="163.6" r="3" fill="#FBBF24"/>
   <circle cx="72.3" cy="163.6" r="3" fill="#FBBF24"/>
-  <circle cx="90.7" cy="163.6" r="3" fill="#FBBF24"/>
-  <circle cx="109.0" cy="157.3" r="3" fill="#FBBF24"/>
-  <circle cx="127.4" cy="166.7" r="3" fill="#FBBF24"/>
-  <circle cx="164.0" cy="172.9" r="3" fill="#FBBF24"/>
-  <circle cx="182.4" cy="169.8" r="3" fill="#FBBF24"/>
-  <circle cx="255.8" cy="144.9" r="3" fill="#FBBF24"/>
-  <circle cx="274.1" cy="148.0" r="3" fill="#FBBF24"/>
-  <circle cx="292.4" cy="151.1" r="3" fill="#FBBF24"/>
-  <circle cx="310.8" cy="166.7" r="3" fill="#FBBF24"/>
-  <circle cx="329.1" cy="157.3" r="3" fill="#FBBF24"/>
-  <circle cx="347.5" cy="135.6" r="3" fill="#FBBF24"/>
-  <circle cx="365.8" cy="151.1" r="3" fill="#FBBF24"/>
-  <circle cx="384.1" cy="129.3" r="3" fill="#FBBF24"/>
-  <circle cx="402.5" cy="85.8" r="3" fill="#FBBF24"/>
-  <circle cx="420.8" cy="64.0" r="3" fill="#FBBF24"/>
-  <circle cx="439.2" cy="104.4" r="3" fill="#FBBF24"/>
-  <circle cx="457.5" cy="166.7" r="3" fill="#FBBF24"/>
-  <circle cx="475.9" cy="138.7" r="3" fill="#FBBF24"/>
-  <circle cx="494.2" cy="92.0" r="3" fill="#FBBF24"/>
-  <circle cx="512.5" cy="126.2" r="3" fill="#FBBF24"/>
-  <circle cx="530.9" cy="123.1" r="3" fill="#FBBF24"/>
-  <circle cx="549.2" cy="120.0" r="3" fill="#FBBF24"/>
-  <circle cx="567.6" cy="151.1" r="3" fill="#FBBF24"/>
-  <circle cx="585.9" cy="138.7" r="3" fill="#FBBF24"/>
-  <circle cx="659.3" cy="166.7" r="3" fill="#FBBF24"/>
-  <text x="54" y="202" class="muted">2026-08-25</text>
-  <text x="806" y="202" class="muted" text-anchor="end">2026-10-05</text>
+  <circle cx="90.7" cy="157.3" r="3" fill="#FBBF24"/>
+  <circle cx="109.0" cy="166.7" r="3" fill="#FBBF24"/>
+  <circle cx="145.7" cy="172.9" r="3" fill="#FBBF24"/>
+  <circle cx="164.0" cy="169.8" r="3" fill="#FBBF24"/>
+  <circle cx="237.4" cy="144.9" r="3" fill="#FBBF24"/>
+  <circle cx="255.8" cy="148.0" r="3" fill="#FBBF24"/>
+  <circle cx="274.1" cy="151.1" r="3" fill="#FBBF24"/>
+  <circle cx="292.4" cy="166.7" r="3" fill="#FBBF24"/>
+  <circle cx="310.8" cy="157.3" r="3" fill="#FBBF24"/>
+  <circle cx="329.1" cy="135.6" r="3" fill="#FBBF24"/>
+  <circle cx="347.5" cy="151.1" r="3" fill="#FBBF24"/>
+  <circle cx="365.8" cy="129.3" r="3" fill="#FBBF24"/>
+  <circle cx="384.1" cy="85.8" r="3" fill="#FBBF24"/>
+  <circle cx="402.5" cy="64.0" r="3" fill="#FBBF24"/>
+  <circle cx="420.8" cy="104.4" r="3" fill="#FBBF24"/>
+  <circle cx="439.2" cy="166.7" r="3" fill="#FBBF24"/>
+  <circle cx="457.5" cy="138.7" r="3" fill="#FBBF24"/>
+  <circle cx="475.9" cy="92.0" r="3" fill="#FBBF24"/>
+  <circle cx="494.2" cy="126.2" r="3" fill="#FBBF24"/>
+  <circle cx="512.5" cy="123.1" r="3" fill="#FBBF24"/>
+  <circle cx="530.9" cy="120.0" r="3" fill="#FBBF24"/>
+  <circle cx="549.2" cy="151.1" r="3" fill="#FBBF24"/>
+  <circle cx="567.6" cy="138.7" r="3" fill="#FBBF24"/>
+  <circle cx="640.9" cy="166.7" r="3" fill="#FBBF24"/>
+  <text x="54" y="202" class="muted">2026-08-26</text>
+  <text x="806" y="202" class="muted" text-anchor="end">2026-10-06</text>
 </svg>
